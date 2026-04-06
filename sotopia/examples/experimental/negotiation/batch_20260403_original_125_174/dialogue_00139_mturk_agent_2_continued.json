@@ -1,0 +1,329 @@
+{
+  "dialogue_index": 139,
+  "dialogue_name": "dialogue_00139",
+  "perspective": "mturk_agent_2",
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I don't need firewood because i can get it at the camp",
+        "Medium": "I need food because nutrients are necessary to be healthy",
+        "High": "I need water since hydration is very important for me"
+      },
+      "outcomes": {
+        "points_scored": 20,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 25,
+        "gender": "male",
+        "ethnicity": "hispanic or latino",
+        "education": "some 2 year college, no degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 5.5,
+          "agreeableness": 5.0,
+          "conscientiousness": 5.5,
+          "emotional-stability": 4.5,
+          "openness-to-experiences": 3.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I need extra water to hydrate",
+        "Medium": "I need firewood for warmth, cooking and seeing at night",
+        "High": "I need food in case my basic supply runs low or spoils"
+      },
+      "outcomes": {
+        "points_scored": 17,
+        "satisfaction": "Slightly dissatisfied",
+        "opponent_likeness": "Undecided"
+      },
+      "demographics": {
+        "age": 39,
+        "gender": "female",
+        "ethnicity": "asian american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 5.5,
+          "agreeableness": 7.0,
+          "conscientiousness": 7.0,
+          "emotional-stability": 6.5,
+          "openness-to-experiences": 5.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hi, I hope we can work together to get an offer that benefits both of us.🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00139_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I agree! Nice to meet you... I have two boys who always eat! Any chance I canget 2 food?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00139_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Food is the item of greatest value to you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00139_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "It is! What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00139_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "The item of greatest value to me is WATER. Before thinking about an offer I need to know what your priorities are and you need to know mine in order to conclude something fair for both of you.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00139_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "My priority is FOOD. How about I get 3 food and you get 3 water?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00139_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "What is the least valuable item for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00139_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "least for me is water",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00139_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "For me is the firewood,  Lets do this: I give u 2 food 1 water and 1 firewood. and i get 2 waters 1 food and 2 firewood",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00139_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "sounds good",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00139_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Submit-Deal",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "2",
+          "Water": "2",
+          "Food": "1"
+        },
+        "issue2theyget": {
+          "Firewood": "1",
+          "Water": "1",
+          "Food": "2"
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00139_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Accept-Deal",
+      "task_data": {
+        "data": "accept_deal",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00139_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    }
+  ],
+  "source_type": "original_no_intervention",
+  "source_dataset": "/home/swang4/866/data/casino_125_174_structured.json"
+}

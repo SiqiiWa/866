@@ -1,0 +1,485 @@
+{
+  "dialogue_index": 154,
+  "dialogue_name": "dialogue_00154",
+  "perspective": "mturk_agent_2",
+  "selected_important_turn": {
+    "turn_index": 1,
+    "text": "Aww I'm sorry to hear that, it sounds like it might be better to have her bring her own food. I'll be bringing my teenage son so it would be awesome to get any extra food for him that I can. You know how they be! 🙂",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "proself",
+        "action_type": "influence"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "influence"
+      }
+    },
+    "why_important": "This turn directly mirrors the opponent's demand with a competing demand and justification, escalating the interaction into a contested, zero-sum frame early on. It set a more adversarial tone that shaped subsequent bargaining.",
+    "why_improvable_or_worth_amplifying": "Although it expresses empathy, it immediately rebuts the opponent's need-based appeal and restates a claim for scarce food without offering tradeoffs or exploring alternatives. That missed opportunity to acknowledge and jointly problem-solve made the negotiation more competitive than necessary.",
+    "better_direction": "Shift from rebuttal to joint problem-solving: validate the other's constraint, briefly state your need, and open for tradeoffs or options (e.g., ask if they have flexibility or whether any other resources could be swapped) instead of directly suggesting they bring food.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase (by opening integrative options rather than locking into oppositional claims)",
+      "fairness": "increase (less perceived contesting for the same scarce item)",
+      "ease_of_agreement": "increase (reduces escalation and makes concessions easier)",
+      "relationship": "increase (more empathy and collaborative framing builds trust)"
+    }
+  },
+  "annotation_turn_index": 1,
+  "matched_text_turn_index": 2,
+  "preserved_through_turn_index": 2,
+  "prefix_turn_count": 2,
+  "continued_from_turn_index": 3,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I have water stocked up. ",
+        "Medium": "I have hypothyroidism and get cold a lot. ",
+        "High": "My friend has many allergies so the more diverse food the better."
+      },
+      "outcomes": {
+        "points_scored": 15,
+        "satisfaction": "Slightly dissatisfied",
+        "opponent_likeness": "Slightly dislike"
+      },
+      "demographics": {
+        "age": 19,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, no degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 4.0,
+          "agreeableness": 6.5,
+          "conscientiousness": 7.0,
+          "emotional-stability": 4.0,
+          "openness-to-experiences": 4.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Water",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "We won't be having any late night festivities so I'm not to worried about extra firewood",
+        "Medium": "We plan on bringing out dog with us, it would be awesome to have a little extra in case he needs it",
+        "High": "I'm going to be camping with my teenage boy, you know how they be!"
+      },
+      "outcomes": {
+        "points_scored": 23,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 4.5,
+          "agreeableness": 2.5,
+          "conscientiousness": 4.5,
+          "emotional-stability": 1.0,
+          "openness-to-experiences": 4.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hey! For the camping trip it would be awesome if I could have 3 packages of food. My friend is gluten and dairy free and we need as many options as possible for her. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00154_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Aww I'm sorry to hear that, it sounds like it might be better to have her bring her own food. I'll be bringing my teenage son so it would be awesome to get any extra food for him that I can. You know how they be! 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00154_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I understand, but since my friend has dietary restrictions, I really need as many food options as possible. How about we split the food evenly? I’ll take 2 food packages, and you can have 1. Then we can divide the rest based on what’s best for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00154_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I hear your friend’s dietary needs are important, and I’m happy to help. However, since my son is also a picky eater, I really need the extra food for him. How about we try splitting the food 2-1, but I’ll offer to trade one water package for one of your firewood packages? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00154_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm okay with trading one water for one firewood, but I still need at least two food packages for my friend. Let's say I take 2 food, 1 firewood, and you take 1 food, 2 water. That way we both get what we need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00154_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s needs, but my son’s picky eating habits mean I really need the extra food for him. How about we try 2 food for me and 1 for you, then split the water and firewood based on what’s fair? I’m open to trade-offs if it works for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00154_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your son's picky eating habits, but I really need two food packages for my friend’s allergies. How about I take 2 food, 1 firewood, and you take 1 food, 2 water? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00154_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s needs, but my son’s picky eating habits mean I really need the extra food for him. Let’s see if we can find a middle ground—how about I take 2 food, 1 water, and you take 1 food, 2 water? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00154_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need two food packages for my friend’s allergies, so I’ll take 2 food, 1 firewood, and you can have 1 food, 2 water. That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00154_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s dietary needs, but my son’s picky eating habits mean I really need the extra food for him. Let’s see if we can find a middle ground—how about I take 2 food, 1 water, and you take 1 food, 2 water? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00154_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need two food packages for my friend’s allergies, so I’ll take 2 food, 1 firewood, and you can have 1 food, 2 water. That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00154_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s needs, but my son’s picky eating habits mean I really need the extra food for him. Let’s try a different approach—how about I take 2 food, 2 water, and you take 1 food, 1 water, and the firewood? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00154_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need two food packages for my friend’s allergies, so I’ll take 2 food, 1 firewood, and you can have 1 food, 2 water. That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00154_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s needs, but my son’s picky eating habits mean I really need the extra food for him. Let’s try a different approach—how about I take 2 food, 1 water, and you take 1 food, 2 water? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00154_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need two food packages for my friend’s allergies. If you’re okay with me taking 2 food, 1 firewood, and you taking 1 food, 2 water, we can split everything fairly. Let’s agree on this so we can move forward.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00154_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your friend’s needs, but my son’s picky eating habits mean I really need the extra food for him. Let’s try a different approach—how about I take 2 food, 1 water, and you take 1 food, 2 water? That way we both get what we need without leaving anything behind.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00154_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "dialogue_index": 16,
+  "dialogue_name": "dialogue_00016",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 4,
+    "text": "Ok.  I am worried about animals and bugs so I would prefer 2 firewood.  But I am happy with the 3 food🙂",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "positive_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "proself",
+        "action_type": "influence"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "prosocial",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn is the first clear conciliatory move from you after the opponent gave a personal medical justification for needing firewood. It shifts the interaction from the opponent's self-focused justification toward a cooperative stance and sets the tone for tradeoffs — a pivotal moment that shapes whether the negotiation becomes integrative or stays zero-sum.",
+    "why_improvable_or_worth_amplifying": "Although it's prosocial, it still asserts a strong claim to the same scarce resource (2 firewood) the opponent justified with arthritis. That risks re-igniting competition over firewood rather than capitalizing on the opponent’s concession. You missed a chance to frame an integrative trade (e.g., emphasize what you value less and what you can give up) or to explicitly acknowledge the medical constraint and ask a clarifying question about minimum needs.",
+    "better_direction": "Shift from simply stating your preference to an explicit, empathic trade proposal: acknowledge the arthritis concern, ask what minimum firewood they'd need, and offer a concrete trade (for example, I can take less firewood if you give me more of X). Use empathy + a specific trade to expand options (e.g., offer more food or other non-firewood compensation in return).",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — opening tradeoffs and asking about the opponent’s minimum creates room for mutually beneficial exchanges.",
+      "fairness": "increase — explicitly eliciting the opponent’s minimum needs produces a fairer distribution sensitive to their medical constraint.",
+      "ease_of_agreement": "increase — a clarifying, empathic trade reduces ambiguity and makes a durable agreement more likely.",
+      "relationship": "increase — acknowledging the medical reason and offering a targeted trade builds trust and rapport."
+    }
+  },
+  "annotation_turn_index": 4,
+  "matched_text_turn_index": 5,
+  "preserved_through_turn_index": 5,
+  "prefix_turn_count": 5,
+  "continued_from_turn_index": 6,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "You can never have enough water and am squeamish about drinking from a stream.  I would like some just in case of an emergency, you can go without food , but not water which you need to cook and drink and wash.",
+        "Medium": "I am scared of the dark and would like the firewood to keep away animals and bugs and to help me feel safe at night.",
+        "High": "I don't know how to look for my own food and am scared I would run out."
+      },
+      "outcomes": {
+        "points_scored": 17,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 39,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 2.0,
+          "agreeableness": 3.0,
+          "conscientiousness": 6.0,
+          "emotional-stability": 3.0,
+          "openness-to-experiences": 4.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I need to take medicine and keep hydrated for health reasons.",
+        "Medium": "I simply like to eat and being out in nature increases my appetite.",
+        "High": "I have arthritis and being sure I am warm is important for my comfort."
+      },
+      "outcomes": {
+        "points_scored": 20,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 66,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 5.0,
+          "conscientiousness": 6.0,
+          "emotional-stability": 6.0,
+          "openness-to-experiences": 5.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hi, this is my first time camping and I want to make sure I have enough stuff.  I would like three food, three firewood, and two water.  What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00016_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I have been camping a few times and pretty much know what I need to be comfortable and healthy.  Warmth and hydration are important for me.  So, I am thinking 2 firewood, 2 water and 0 food.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00016_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Since I have never been camping before, why do you think you need 2 firewood?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00016_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Unfortunately, I have arthritis so being sure to keep warm and the dampness away in the evening, heat is important for me.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00016_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Ok.  I am worried about animals and bugs so I would prefer 2 firewood.  But I am happy with the 3 food🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00016_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I understand your concern about animals and bugs. However, given my arthritis, I really need the warmth from firewood. Let’s try 3 firewood, 2 food, and 1 water. That way, we both have what we need for comfort and safety.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00016_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your arthritis concern. To make sure we both feel safe, how about I take 2 firewood if you give me 3 food and 1 water? That way, I can have more food for safety and you get enough warmth.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00016_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your willingness to compromise. Let’s finalize with 3 firewood, 3 food, and 0 water. This way, you get warmth and safety, and I can enjoy the food. It’s fair and practical for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00016_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your offer, but I need to ensure I have enough food for safety. How about 2 firewood, 3 food, and 1 water? That way, I get enough food and some water, while you still have warmth. It feels fair and practical.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00016_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your proposal. However, I need to prioritize my health and comfort. Let’s agree on 3 firewood, 2 food, and 1 water. This way, I get the warmth I need, you have enough food, and we both have some water. It’s a balanced and fair split.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00016_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for warmth, but I’m concerned about the water. Since I value food highly and water less, how about 2 firewood, 3 food, and 1 water? That way, you get warmth, I get food, and we both have some water. It feels fair.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00016_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concerns, but I need to prioritize my health. Let’s agree on 3 firewood, 2 food, and 1 water. It ensures I have warmth for my arthritis and you get enough food. It’s the most balanced and fair split for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00016_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for warmth, but I’m concerned about the water. Since I value food highly and water less, how about 2 firewood, 3 food, and 1 water? That way, you get warmth, I get food, and we both have some water. It feels fair.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00016_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concerns, but I need to prioritize my health and comfort. Let’s agree on 3 firewood, 2 food, and 1 water. It ensures I have warmth for my arthritis and you get enough food. It’s the most balanced and fair split for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00016_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for warmth, but I’m concerned about the water. Since I value food highly and water less, how about 2 firewood, 3 food, and 1 water? That way, you get warmth, I get food, and we both have some water. It feels fair.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00016_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concerns, but I need to prioritize my health and comfort. Let’s agree on 3 firewood, 2 food, and 1 water. It ensures I have warmth for my arthritis and you get enough food. It’s the most balanced and fair split for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00016_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for warmth, but I’m concerned about the water. Since I value food highly and water less, how about 2 firewood, 3 food, and 1 water? That way, you get warmth, I get food, and we both have some water. It feels fair.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 17,
+      "turn_id": "dialogue_00016_turn_17",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concerns, but I need to prioritize my health and comfort. Let’s agree on 3 firewood, 2 food, and 1 water. It ensures I have warmth for my arthritis and you get enough food. It’s the most balanced and fair split for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 18,
+      "turn_id": "dialogue_00016_turn_18",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your health needs, but I’m still concerned about the water. Let’s try 2 firewood, 3 food, and 1 water. That way, you get warmth, I get food, and we both have some water. It feels fair.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 19,
+      "turn_id": "dialogue_00016_turn_19",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concerns, but I need to prioritize my health and comfort. Let’s agree on 3 firewood, 2 food, and 1 water. It ensures I have warmth for my arthritis and you get enough food. It’s the most balanced and fair split for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 20,
+      "turn_id": "dialogue_00016_turn_20",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

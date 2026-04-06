@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 12,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00012_mturk_agent_2_rollout_01_continued.json",
+  "self_svi_A": 0.6904761904761905,
+  "other_svi_B_to_A": 0.7261904761904763,
+  "utility_A": 0.0,
+  "utility_B": 0.0,
+  "joint_utility": 0.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6904761904761905,
+    "other_svi_B_to_A": 0.7261904761904763,
+    "utility_A": 0.0,
+    "joint_utility": 0.0
+  },
+  "final_reward": 0.3541666666666667,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00012_turn_04",
+    "dialogue_00012_turn_06",
+    "dialogue_00012_turn_08"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 4,
+      "turn_id": "dialogue_00012_turn_04",
+      "text": "I need water for cooking for my kids, but I'm open to trading some firewood if you're willing to take more water. How does that sound?",
+      "b1": -1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.3333333333333333,
+      "decomposed_reward": 0.11805555555555555
+    },
+    {
+      "turn_index": 6,
+      "turn_id": "dialogue_00012_turn_06",
+      "text": "I need water for cooking, but I’m willing to take 2 water if you give me 2 firewood. That way, I can sit by the fire and you get more water. What do you think?",
+      "b1": -1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.3333333333333333,
+      "decomposed_reward": 0.11805555555555555
+    },
+    {
+      "turn_index": 8,
+      "turn_id": "dialogue_00012_turn_08",
+      "text": "Okay, that sounds fair. Let me just confirm the split: 2 water, 1 firewood, 1 food for you, and 1 water, 2 firewood, 1 food for me. I think that works.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.3333333333333333,
+      "decomposed_reward": 0.11805555555555558
+    }
+  ]
+}

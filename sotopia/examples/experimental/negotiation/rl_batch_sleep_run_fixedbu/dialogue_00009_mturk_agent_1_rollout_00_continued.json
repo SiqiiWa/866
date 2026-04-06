@@ -1,0 +1,353 @@
+{
+  "dialogue_index": 9,
+  "dialogue_name": "dialogue_00009",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 5,
+    "text": "I need the most firewood due to a congenital issue that results in us having poor blood circulation to our extremities, thus making them susceptible to frostbite in the cold!",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "influence"
+      }
+    },
+    "why_important": "This turn shifts the negotiation from a cooperative, information-sharing exchange into a personal claim backed by a medical justification. It stakes a strong claim on a scarce item (firewood) and signals a competitive/proself stance, which strongly influences how the other party frames their next move.",
+    "why_improvable_or_worth_amplifying": "Although the medical reason makes the need compelling, the turn is purely a claim and persuasive move without offering tradeoffs or showing flexibility. That pushed the interaction toward zero-sum bargaining and left little space for integrative options (e.g., trading different goods, sharing water). It also risks making the opponent respond with an all-or-nothing counteroffer rather than a cooperative split.",
+    "better_direction": "Keep the honest medical justification but pair it with an explicit willingness to trade or trade request (e.g., ask what they most need and propose possible swaps), or signal flexibility and propose conditional concessions on other items. Framing the need as \"I really need more wood — could we work out a trade where I take more wood but give you X in return?\" would preserve the legitimacy of the need while opening integrative options.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase (by enabling integrative trade instead of hardening zero-sum claims)",
+      "fairness": "increase (by making allocations negotiable rather than unilateral claims)",
+      "ease_of_agreement": "increase (by creating concrete trade paths rather than provoking defensive counteroffers)",
+      "relationship": "increase (by reducing perceived aggressiveness and showing cooperative intent)"
+    }
+  },
+  "annotation_turn_index": 5,
+  "matched_text_turn_index": 6,
+  "preserved_through_turn_index": 6,
+  "prefix_turn_count": 6,
+  "continued_from_turn_index": 7,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "We can get by with the basics ",
+        "Medium": "I brought children a long and they need to eat",
+        "High": "I have limbs that cold easily, and frostbite could occur"
+      },
+      "outcomes": {
+        "points_scored": 17,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "doctorate degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 5.0,
+          "agreeableness": 5.5,
+          "conscientiousness": 5.5,
+          "emotional-stability": 6.0,
+          "openness-to-experiences": 6.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "We have plenty of water because I always over pack water.  ",
+        "Medium": "I have my young baby with me and he might get cold.  ",
+        "High": "I have my five children with me and they eat so much, I think I need more food.  "
+      },
+      "outcomes": {
+        "points_scored": 20,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 39,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 6.0,
+          "agreeableness": 6.0,
+          "conscientiousness": 7.0,
+          "emotional-stability": 6.5,
+          "openness-to-experiences": 2.5
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello, how are you today? 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00009_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "good, how are you 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00009_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Great!  I'm on a camping trip with my five children, how about you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00009_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I'm also going camping with my two children and 2 of my nephews  How would you like to divide the supplies?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00009_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Well what do you need the most of?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00009_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I need the most firewood due to a congenital issue that results in us having poor blood circulation to our extremities, thus making them susceptible to frostbite in the cold!",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00009_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I really need more firewood — could we work out a trade where I take more wood but give you some food in return? I have a medical reason for needing it, but I'm open to fair exchanges.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00009_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand the need for firewood, but I’m prioritizing food for my kids. How about this: I’ll take 2 food and 1 firewood, and you take 1 food and 2 firewood? That way, we both get what we need without overextending.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00009_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate the offer, but I need at least 2 firewood packages to stay warm. What if I take 2 firewood and 1 food, and you take 1 firewood and 2 food? It balances our needs while ensuring I have enough for the cold.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00009_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm okay with that deal. Let's confirm: you take 2 firewood and 1 food, I take 1 firewood and 2 food. That covers all 3 of each item. We're both set for the trip.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00009_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00009_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

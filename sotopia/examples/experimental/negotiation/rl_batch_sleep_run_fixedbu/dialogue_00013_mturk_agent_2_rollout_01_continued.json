@@ -1,0 +1,566 @@
+{
+  "dialogue_index": 13,
+  "dialogue_name": "dialogue_00013",
+  "perspective": "mturk_agent_2",
+  "selected_important_turn": {
+    "turn_index": 6,
+    "text": "Thanks for asking ..! I will need 3 of food, 3 of water and 2 of firewood..",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn is the first explicit, concrete demand from YOU and it shifts the interaction from the opponent's cooperative information-seeking into a firm, zero-sum allocation request. It sets the agenda and anchoring numbers for the rest of the negotiation, making subsequent concessions and tradeoffs harder.",
+    "why_improvable_or_worth_amplifying": "It is unilaterally focused on maximizing YOUR share (3/3/2) with no acknowledgement of the opponent's needs or any trade proposals. Coming immediately after the opponent invited your needs (a prosocial move), this hard demand misses an opportunity to create integrative value and instead invites pushback and competition.",
+    "better_direction": "Soften the initial demand: state priorities rather than maximal counts, explain why specific items matter, ask about the opponent's priorities, and propose potential tradeoffs (e.g., 'I need most food and water — would you prefer more firewood if I take extra water?'). Offer flexibility on lower-priority items rather than staking out the maximal split.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "likely increase — opening a trade-based proposal would create integrative possibilities instead of zero-sum fighting",
+      "fairness": "increase — by signaling willingness to trade, outcomes are likelier to reflect both sides' priorities",
+      "ease_of_agreement": "increase — a softer, collaborative opening reduces resistance and speeds agreement",
+      "relationship": "improve — acknowledging the other and proposing trades builds trust instead of provoking defensiveness"
+    }
+  },
+  "annotation_turn_index": 6,
+  "matched_text_turn_index": 7,
+  "preserved_through_turn_index": 7,
+  "prefix_turn_count": 7,
+  "continued_from_turn_index": 8,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I need food to feed myself without having to hunt for food",
+        "Medium": "I need firewood to keep myself warm during the cold night",
+        "High": "I didn't carry water bottles with me, and need to drink"
+      },
+      "outcomes": {
+        "points_scored": 17,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 26,
+        "gender": "male",
+        "ethnicity": "asian american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 4.5,
+          "conscientiousness": 6.0,
+          "emotional-stability": 4.0,
+          "openness-to-experiences": 2.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Water",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "It's raining in the camp ",
+        "Medium": "My kid is having respiratory problem so water is indeed",
+        "High": "I have a pregnant wife and 2 children"
+      },
+      "outcomes": {
+        "points_scored": 23,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 40,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 7.0,
+          "agreeableness": 5.0,
+          "conscientiousness": 5.0,
+          "emotional-stability": 6.0,
+          "openness-to-experiences": 7.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello there...! Are you excited for the camp",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00013_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Hey, I am really excited! 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00013_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Wow.. Cool ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00013_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Are you prepared for the camp?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00013_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Yes A little.. But I would need extra camping items ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00013_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Ok, I do too. What do you really need?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00013_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Thanks for asking ..! I will need 3 of food, 3 of water and 2 of firewood..",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 7,
+      "turn_id": "dialogue_00013_turn_07",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I prioritize food and water most. I need more food for my family and extra water for my child's health. Would you prefer more firewood if I take extra water? Let's find a balance.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00013_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I value water most for drinking and firewood for warmth. If you take 2 water, I’ll give you 2 firewood. Let’s split the food evenly for fairness.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00013_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. If you take 2 water, I’ll give you 2 firewood. Let’s split the food evenly for fairness.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00013_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need water for drinking and firewood for warmth. If you take 2 water and 1 food, I’ll give you 2 firewood and 1 food. Let’s finalize this split.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00013_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. If you take 2 water and 1 food, I’ll give you 2 firewood and 1 food. Let’s finalize this split.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00013_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need water for drinking and firewood for warmth. Let’s agree on 2 water, 1 food, and 2 firewood for you, and the remaining 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00013_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. Let’s agree on 2 water, 1 food, and 2 firewood for you, and the remaining 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00013_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need water for drinking and firewood for warmth. Let’s confirm: 2 water, 1 food, and 2 firewood for you, and 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00013_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. Let’s agree on 2 water, 1 food, and 2 firewood for you, and the remaining 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00013_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Let’s confirm the split: 2 water, 1 food, and 2 firewood for you, and 1 water, 2 food, and 1 firewood for me. This ensures both our needs are met fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 17,
+      "turn_id": "dialogue_00013_turn_17",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. Let’s agree on 2 water, 1 food, and 2 firewood for you, and the remaining 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 18,
+      "turn_id": "dialogue_00013_turn_18",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Let’s confirm the split: 2 water, 1 food, and 2 firewood for you, and 1 water, 2 food, and 1 firewood for me. This ensures both our needs are met fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 19,
+      "turn_id": "dialogue_00013_turn_19",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food and water for my family. Let’s agree on 2 water, 1 food, and 2 firewood for you, and the remaining 1 water, 2 food, and 1 firewood for me. That’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 20,
+      "turn_id": "dialogue_00013_turn_20",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

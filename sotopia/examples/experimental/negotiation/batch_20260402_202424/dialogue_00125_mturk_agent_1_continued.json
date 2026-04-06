@@ -1,0 +1,566 @@
+{
+  "dialogue_index": 125,
+  "dialogue_name": "dialogue_00125",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 6,
+    "text": "Is it possible I could have 3 food since I have none and 2 Firewood to stay warm and you can have 1 Firewood and 3 Water?",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This is the major trajectory-shifting move: after a cooperative, empathic exchange it jumps to a self-favoring, concrete allocation. That hard turn frames the interaction as zero-sum, sets expectations about YOU's priorities, and directly constrains what the opponent will accept.",
+    "why_improvable_or_worth_amplifying": "It's too greedy and blunt given the opponent's explicit firewood shortage. It ignores the integrative possibility implied earlier (they need firewood; you need food), offers no rationale or trade logic, and risks rejection or a worse relationship. A more collaborative framing could have preserved trust and created a deal that increases joint value.",
+    "better_direction": "Reframe this move to signal willingness to trade and to address the opponent's firewood need: acknowledge their constraint, propose a trade package that explicitly gives them the extra firewood they need in exchange for food (or offer multiple options), or ask a clarifying question about what split of firewood would let them heat their food. Avoid demanding all food outright; show flexibility and tie your request to mutual benefits.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase (if reframed toward trades that address both needs) instead of being locked into zero-sum",
+      "fairness": "increase (more balanced, reciprocal allocations)",
+      "ease_of_agreement": "increase (less resistance; opponent more likely to accept)",
+      "relationship": "improve (less perceived greed; more cooperative tone)"
+    }
+  },
+  "annotation_turn_index": 6,
+  "matched_text_turn_index": 7,
+  "preserved_through_turn_index": 7,
+  "prefix_turn_count": 7,
+  "continued_from_turn_index": 8,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I have a cold and need to hydrate more",
+        "Medium": "I only have shorts, so I will be cold at night",
+        "High": "A bear grabbed all of my food"
+      },
+      "outcomes": {
+        "points_scored": 21,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 59,
+        "gender": "male",
+        "ethnicity": "multi-racial",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 1.0,
+          "agreeableness": 7.0,
+          "conscientiousness": 7.0,
+          "emotional-stability": 7.0,
+          "openness-to-experiences": 6.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I don't usually drink much water, so it's not as important to me.",
+        "Medium": "I don't want to run out of food while camping.",
+        "High": "I enjoy having a small fire when camping."
+      },
+      "outcomes": {
+        "points_scored": 15,
+        "satisfaction": "Undecided",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 29,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 5.5,
+          "conscientiousness": 6.5,
+          "emotional-stability": 3.5,
+          "openness-to-experiences": 4.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello, How is your camping experience so far 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00125_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "It's going well.  🙂  How is yours?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00125_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "It was going great until a bear came and took all of our food 😮",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00125_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Oh no, that's not good.  I still have some left over, but we're running out of firewood to use to heat it.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00125_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Seems like we are in the same boat, the bear tore our tent to shreds so we are sleeping outside and it is cold☹️",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00125_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Sounds like a rough camping trip.  It has been pretty cold lately.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00125_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Is it possible I could have 3 food since I have none and 2 Firewood to stay warm and you can have 1 Firewood and 3 Water?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00125_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I understand the need for food and firewood, but I can only offer 2 firewood and 1 food. Let’s split the water evenly to ensure we both stay hydrated.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00125_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your offer, but I need more food to survive. What if I give you 1 food and 1 firewood in exchange for 2 more firewood? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00125_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let's see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00125_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food to survive, but I understand your firewood shortage. What if I give you 1 food and 1 firewood in exchange for 2 more firewood? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00125_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let's see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00125_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need more food to survive, but I understand your firewood shortage. What if I give you 1 food and 1 firewood in exchange for 2 more firewood? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00125_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let's see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00125_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I need at least 2 more food to survive. How about I give you 1 food and 1 firewood, and you give me 2 more firewood and 1 food? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00125_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let's see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00125_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need at least 2 more food packages to survive. What if I give you 1 food and 1 firewood, and you give me 2 more firewood and 1 food? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 17,
+      "turn_id": "dialogue_00125_turn_17",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let's see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 18,
+      "turn_id": "dialogue_00125_turn_18",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need at least 2 more food packages to survive. How about I give you 1 food and 1 firewood, and you give me 2 more firewood and 1 food? That way, we both stay warm and I get the food I need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 19,
+      "turn_id": "dialogue_00125_turn_19",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’m willing to trade 1 food for 1 firewood, but I can only offer 1 food. Let’s see if we can find a fair balance for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 20,
+      "turn_id": "dialogue_00125_turn_20",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

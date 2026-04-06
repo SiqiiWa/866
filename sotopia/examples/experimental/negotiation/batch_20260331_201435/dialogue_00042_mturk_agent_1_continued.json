@@ -1,0 +1,335 @@
+{
+  "dialogue_index": 42,
+  "dialogue_name": "dialogue_00042",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 3,
+    "text": "Yes. I'm actually taking a large group of people. Some friends and family are going and I kind of also wanted a bit of extra firewood. 🙂",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "info"
+      }
+    },
+    "why_important": "This turn shifts the interaction from the opponent's cooperative disclosure (they want to cook and extra food) into an explicitly self-interested claim for firewood. That change in stance early in the exchange raises zero-sum pressure and makes integrative tradeoffs less likely.",
+    "why_improvable_or_worth_amplifying": "It is a negative-structural move (prosocial -> proself) that needlessly escalates competitiveness. Rather than immediately claiming firewood, the agent could have used the opponent's disclosure to explore mutual needs or identify complementary trades. As-is it narrows options and signals a grab for the top-priority good.",
+    "better_direction": "Stay cooperative: acknowledge the opponent's cooking goal and ask clarifying questions (e.g., how much firewood or food they need) or offer conditional, partial requests (e.g., propose sharing firewood or trading some lower-value items) to surface integrative possibilities before staking a firm claim.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "likely increase if the agent invites information and tradeoffs rather than immediately claiming all firewood",
+      "fairness": "likely increase because exploring needs allows more balanced divisions aligned with priorities",
+      "ease_of_agreement": "increase—by reducing zero-sum framing and building options, agreement becomes easier",
+      "relationship": "improve—being inquisitive and cooperative signals respect and builds rapport"
+    }
+  },
+  "annotation_turn_index": 3,
+  "matched_text_turn_index": 4,
+  "preserved_through_turn_index": 4,
+  "prefix_turn_count": 4,
+  "continued_from_turn_index": 5,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Water",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I'd like some additional food just because there are a lot of people in our trip.",
+        "Medium": "I would like extra water because it is supposed to be very hot in the area during our trip and hasn't rained in a while.",
+        "High": "I need more firewood due to having several people join on the trip and needing a bigger fire overall."
+      },
+      "outcomes": {
+        "points_scored": 19,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 2.0,
+          "agreeableness": 4.0,
+          "conscientiousness": 6.5,
+          "emotional-stability": 3.0,
+          "openness-to-experiences": 3.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I have plenty of water, but it would be nice to make a hot drink. ",
+        "Medium": "I would like to cool a special meal.",
+        "High": "I would like firewood because I would like an extra fire for cooking."
+      },
+      "outcomes": {
+        "points_scored": 18,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 23,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 2 year college, no degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 2.5,
+          "agreeableness": 2.5,
+          "conscientiousness": 5.5,
+          "emotional-stability": 2.5,
+          "openness-to-experiences": 2.5
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hey!🙂 How are you? What were your plans for the weekend?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00042_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Hi. I'm doing great. How are you? I'm planning on going camping.🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00042_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I'm great! Me too! did you have any specific plans? I wanted to make an extra fire to cook with and cook a nice meal. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00042_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Yes. I'm actually taking a large group of people. Some friends and family are going and I kind of also wanted a bit of extra firewood. 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00042_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I understand you want to cook, so maybe we can trade some firewood for food? I need more firewood for the group, but I can give you some of my food if you share a portion of the firewood.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00042_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’m happy to trade, but I need at least 2 firewood packages for 1 food package. That way, I can cook properly while still giving you enough for the group.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00042_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I see. If you need 2 firewood for 1 food, maybe we can try 2 firewood for 1 food and then split the remaining firewood equally? That way, we both get what we need without overcommitting.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00042_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Let’s try 2 firewood for 1 food. That gives me 2 firewood and you 1 food, and we can split the remaining 1 firewood and 2 food equally. It’s fair and meets my cooking needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00042_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’m okay with that deal. Let’s split the remaining 1 firewood and 2 food equally. That gives me 1.5 firewood and 1 food, and you get 1.5 firewood and 1 food. It’s fair and meets both our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00042_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00042_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

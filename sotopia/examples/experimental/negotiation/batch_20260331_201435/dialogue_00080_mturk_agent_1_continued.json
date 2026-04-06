@@ -1,0 +1,581 @@
+{
+  "dialogue_index": 80,
+  "dialogue_name": "dialogue_00080",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 1,
+    "text": "I hello I need firewood to survive",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "neutral",
+        "action_type": "non-strategic"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "influence"
+      }
+    },
+    "why_important": "This is the first substantive bid by YOU and it frames the negotiation as urgent and self-focused. Early framing strongly influences whether the interaction becomes integrative/cooperative or zero-sum/competitive.",
+    "why_improvable_or_worth_amplifying": "The phrasing is an emotional, high-claim demand ('to survive') delivered right after a neutral greeting. That both risks putting the other party on the defensive and misses an early opportunity to build trust or discover integrative trades (e.g., food vs. water). The aggressive tone is unnecessary given the other party later shares cooperative context (charity event).",
+    "better_direction": "Soften the initial claim and provide brief factual context or an invite to trade rather than a survival plea. For example, state your priority calmly and ask about the other’s priorities or willingness to trade (without demanding), which opens integrative options.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — a softer, information-seeking opening would make it easier to identify trades that help both sides instead of triggering defensive zero-sum responses.",
+      "fairness": "increase — reducing high-claim language makes concessions and tradeoffs feel less coerced.",
+      "ease_of_agreement": "increase — cooperative framing lowers resistance and speeds convergence.",
+      "relationship": "increase — less confrontational wording builds rapport and trust."
+    }
+  },
+  "annotation_turn_index": 1,
+  "matched_text_turn_index": 2,
+  "preserved_through_turn_index": 2,
+  "prefix_turn_count": 2,
+  "continued_from_turn_index": 3,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I have more than enough and I don't need much more",
+        "Medium": "I have a enough for now but I will need some in the future ",
+        "High": "I am running out and I need to make fires"
+      },
+      "outcomes": {
+        "points_scored": 19,
+        "satisfaction": "Slightly dissatisfied",
+        "opponent_likeness": "Slightly dislike"
+      },
+      "demographics": {
+        "age": 27,
+        "gender": "male",
+        "ethnicity": "hispanic or latino",
+        "education": "some 4 year college, no degree"
+      },
+      "personality": {
+        "svo": "unclassified",
+        "big-five": {
+          "extraversion": 4.5,
+          "agreeableness": 5.0,
+          "conscientiousness": 3.5,
+          "emotional-stability": 3.5,
+          "openness-to-experiences": 4.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "some extra firewood would help them start the fire",
+        "Medium": "the kids will need to eat during the trip",
+        "High": "goint on a camping event with make a wish children , they will need water for their medication "
+      },
+      "outcomes": {
+        "points_scored": 23,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Undecided"
+      },
+      "demographics": {
+        "age": 3,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "high school graduate / ged"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 4.0,
+          "agreeableness": 4.0,
+          "conscientiousness": 4.0,
+          "emotional-stability": 4.0,
+          "openness-to-experiences": 4.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello! 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00080_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I hello I need firewood to survive",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00080_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I need to prioritize firewood since I'm running out. How about you? Maybe we can trade some food for firewood if it works for you.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00080_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need water for the kids' medication, so I'll take 2 water packages. I'm okay with giving you 1 food package in exchange for 1 firewood package. Does that work for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00080_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to keep the campsite warm. I’m willing to give you 1 food package in exchange for 1 firewood package. What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00080_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 2 water packages and 1 food package. I can give you 2 firewood packages in return. That way, the kids get their medication and we both have enough for warmth.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00080_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s find a fair split that works for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00080_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 2 water, 1 food, and 1 firewood. You can have the remaining 1 water, 2 food, and 2 firewood. That way, the kids get their medication, and we both stay warm and fed.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00080_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s find a fair split that works for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00080_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 2 water, 1 food, and 1 firewood. You can have the remaining 1 water, 2 food, and 2 firewood. That way, the kids get their medication, and we both stay warm and fed.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00080_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s find a fair split that works for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00080_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 2 water packages for the kids' medication, and I'll give you 1 food and 1 firewood package in return. Let's make sure we both have what we need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00080_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s find a fair split that works for both of us.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00080_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 2 water packages for the kids' medication. I’m happy to give you 1 food and 1 firewood package in return. Let’s finalize this so we can both prepare properly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00080_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s finalize this so we can both prepare properly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00080_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 2 water, 1 food, and 1 firewood. You can have the remaining 1 water, 2 food, and 2 firewood. That way, the kids get their medication, and we both stay warm and fed.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00080_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s finalize this so we can both prepare properly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 17,
+      "turn_id": "dialogue_00080_turn_17",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 2 water packages for the kids' medication. I’ll give you 1 food and 1 firewood package in return. Let’s finalize this so we can both prepare properly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 18,
+      "turn_id": "dialogue_00080_turn_18",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood packages to stay warm. I’m willing to give you 1 food package for 1 firewood. Let’s finalize this so we can both prepare properly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 19,
+      "turn_id": "dialogue_00080_turn_19",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 2 water, 1 food, and 1 firewood. You can have the remaining 1 water, 2 food, and 2 firewood. That way, the kids get their medication, and we both stay warm and fed.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 20,
+      "turn_id": "dialogue_00080_turn_20",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

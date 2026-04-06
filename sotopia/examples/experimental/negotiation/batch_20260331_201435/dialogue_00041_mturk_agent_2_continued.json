@@ -1,0 +1,575 @@
+{
+  "dialogue_index": 41,
+  "dialogue_name": "dialogue_00041",
+  "perspective": "mturk_agent_2",
+  "selected_important_turn": {
+    "turn_index": 3,
+    "text": "Oh, that's not possible.  Sorry☹️",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_complementary",
+      "from": {
+        "speaker": "THEM",
+        "stance": "proself",
+        "action_type": "offer"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "info"
+      }
+    },
+    "why_important": "This is the first explicit rejection of the opponent's concrete allocation request. It closes off the opponent's proposal without offering alternatives or exploring tradeoffs, shaping the negotiation into a competitive frame early on.",
+    "why_improvable_or_worth_amplifying": "The turn is blunt and blocking: it signals refusal but provides no constraints, reasons, or possible compromises. That increases zero-sum pressure, reduces information for integrative trades, and risks harming rapport even though the opponent was asking to negotiate.",
+    "better_direction": "Soften the rejection and convert it into a constructive step: acknowledge the request, briefly state the constraint (why it's not possible), and immediately offer alternatives or ask what they would accept (e.g., propose partial quantities or trade options).",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — opening alternatives creates room for mutually beneficial trades instead of deadlock.",
+      "fairness": "increase — providing reasons and options helps both parties see constraints and contributes to a fairer process.",
+      "ease_of_agreement": "increase — offering alternatives or soliciting counteroffers makes agreement more likely and quicker.",
+      "relationship": "increase — softer language and cooperative problem‑solving preserve trust and rapport."
+    }
+  },
+  "annotation_turn_index": 3,
+  "matched_text_turn_index": 4,
+  "preserved_through_turn_index": 4,
+  "prefix_turn_count": 4,
+  "continued_from_turn_index": 5,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I am not hungry most of the time.",
+        "Medium": "I get cold easily. I might catch a cold.",
+        "High": "I am a thirsty person. Water will make me happy."
+      },
+      "outcomes": {
+        "points_scored": 15,
+        "satisfaction": "Extremely dissatisfied",
+        "opponent_likeness": "Extremely dislike"
+      },
+      "demographics": {
+        "age": 26,
+        "gender": "male",
+        "ethnicity": "black or african american",
+        "education": "some 2 year college, associate's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 4.0,
+          "agreeableness": 4.0,
+          "conscientiousness": 4.0,
+          "emotional-stability": 4.0,
+          "openness-to-experiences": 4.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I need to eat a lot to keep up body temperature.",
+        "Medium": "I suffer greatly from the cold because I am fragile.",
+        "High": "I have a medical condition that requires me to intake a lot of water."
+      },
+      "outcomes": {
+        "points_scored": 21,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 65,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 3.5,
+          "agreeableness": 6.5,
+          "conscientiousness": 7.0,
+          "emotional-stability": 7.0,
+          "openness-to-experiences": 7.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello, I need supplies for the trip!🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00041_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Yep, me too🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00041_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I need 3 water, 2 firewood, and one food. It would be good if I got that!  🙂🙂🙂☹️☹️",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00041_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Oh, that's not possible.  Sorry☹️",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00041_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I understand. Let's try a different split. How about I take 2 water, 2 firewood, and 1 food? It's fair and meets my needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00041_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’m sorry, but I can’t agree to that split. I need more water due to my medical condition. How about if I take 3 water, 1 firewood, and 1 food? It would better meet my needs while still leaving some supplies for you.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00041_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I see your need for water. Let's find a middle ground. How about I take 2 water, 2 firewood, and 1 food, and you take 1 water, 1 firewood, and 2 food? It balances our needs and ensures we both have enough.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00041_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your willingness to find a middle ground. However, I still need at least 3 water packages due to my medical condition. How about I take 3 water, 1 firewood, and 1 food, while you take 0 water, 2 firewood, and 2 food? This way, I can meet my critical needs while you still get a fair share.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00041_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for water, but I need at least 2 water packages to stay hydrated. Let’s try 2 water, 2 firewood, and 1 food for me, and 1 water, 1 firewood, and 2 food for you. This way, we both meet our needs fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00041_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for water, but I need at least 2 water packages to stay hydrated. How about I take 2 water, 2 firewood, and 1 food, while you take 1 water, 1 firewood, and 2 food? This way, we both meet our needs fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00041_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I think we can agree on 2 water, 2 firewood, and 1 food for me, and 1 water, 1 firewood, and 2 food for you. It's fair and meets both of our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00041_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your proposal, but I need at least 3 water packages due to my medical condition. How about I take 3 water, 1 firewood, and 1 food, while you take 0 water, 2 firewood, and 2 food? This way, I can meet my critical needs while you still get a fair share.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00041_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your medical need for water, but I need at least 2 water packages to stay hydrated. Let’s try 2 water, 2 firewood, and 1 food for me, and 1 water, 1 firewood, and 2 food for you. This way, we both meet our needs fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00041_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your concern about water, but I truly need 3 water packages for my medical condition. How about I take 3 water, 1 firewood, and 1 food, and you take 0 water, 2 firewood, and 2 food? This way, I can manage my health while you still get a fair share of the supplies.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00041_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your medical need, but I require at least 2 water packages. Let’s compromise: I take 2 water, 2 firewood, and 1 food, and you take 1 water, 1 firewood, and 2 food. This ensures both of us have enough to meet our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00041_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for water, but I truly need at least 2 water packages for my health. How about I take 2 water, 2 firewood, and 1 food, and you take 1 water, 1 firewood, and 2 food? This way, we both meet our needs and ensure fairness.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00041_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I think we can agree on 2 water, 2 firewood, and 1 food for me, and 1 water, 1 firewood, and 2 food for you. It's fair and meets both of our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 17,
+      "turn_id": "dialogue_00041_turn_17",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your willingness to compromise. However, I need at least 3 water packages for my medical condition. How about I take 3 water, 1 firewood, and 1 food, while you take 0 water, 2 firewood, and 2 food? This way, I can manage my health while you still get a fair share of the supplies.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 18,
+      "turn_id": "dialogue_00041_turn_18",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your medical need, but I require at least 2 water packages to stay hydrated. Let’s compromise: I take 2 water, 2 firewood, and 1 food, and you take 1 water, 1 firewood, and 2 food. This ensures both of us have enough to meet our needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 19,
+      "turn_id": "dialogue_00041_turn_19",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your medical need, but I truly require 3 water packages for my health. How about I take 3 water, 1 firewood, and 1 food, while you take 0 water, 2 firewood, and 2 food? This way, I can manage my health while you still get a fair share of the supplies.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 20,
+      "turn_id": "dialogue_00041_turn_20",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "dialogue_index": 40,
+  "dialogue_name": "dialogue_00040",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 11,
+    "text": "I couldn't live well with myself if I would let you die. You can have the two waters and 2 firewoods. Please be careful with your meds.",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "positive_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "offer"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "prosocial",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn finalizes a generous, emotionally charged concession that directly determines the material split. It closes the deal in a strongly prosocial way, and thus has a major effect on fairness and the agent's own outcome.",
+    "why_improvable_or_worth_amplifying": "Although empathic language builds rapport, this turn appears to over-concede (giving two waters and two firewoods) beyond the prior negotiated proposal. The moral phrasing risks encouraging excessive future concessions and reduces the agent's own payoff and fairness of the split. It also slightly blurs the agreed specifics (emotional language instead of confirming the exact allocation).",
+    "better_direction": "Keep the empathetic tone but avoid over-conceding or moralizing language that gives away more than agreed. Confirm the exact allocation that preserves your priorities (e.g., restate the agreed split) and offer supportive words without changing the material terms. If you want to be generous, make it explicit and conditional (e.g., offer one extra item only if they truly need it).",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "small decrease (current over-concession reduces your payoff without increasing total resources); preventing the extra concession could maintain or slightly raise joint perceived efficiency.",
+      "fairness": "increase if adjusted (avoiding the extra concession would make the split fairer to both sides); current turn reduces perceived fairness for you.",
+      "ease_of_agreement": "neutral to slightly improved (empathy helps closure), but clarity about terms would make agreement cleaner and reduce misunderstandings.",
+      "relationship": "improved by empathy; maintaining empathy while avoiding over-concession keeps relationship strong without sacrificing fairness."
+    }
+  },
+  "annotation_turn_index": 11,
+  "matched_text_turn_index": 12,
+  "preserved_through_turn_index": 12,
+  "prefix_turn_count": 12,
+  "continued_from_turn_index": 13,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Water",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I could possibly freeze to death at night without it.",
+        "Medium": "Humans need water to live and will die without it in a few days.",
+        "High": "Humans need food to live and will die without it in a few days."
+      },
+      "outcomes": {
+        "points_scored": 22,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 30,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "high school graduate / ged"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 2.0,
+          "agreeableness": 4.5,
+          "conscientiousness": 2.5,
+          "emotional-stability": 2.0,
+          "openness-to-experiences": 2.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "You can survive for many days without food, plus there is already a supply given to me.",
+        "Medium": "Firewood is important for warmth and heat. There could be an emergency where you need firewood to call for help.",
+        "High": "Water is the most important resource to prevent dehydration. You can never have too much water."
+      },
+      "outcomes": {
+        "points_scored": 18,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 46,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 2 year college, associate's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 4.5,
+          "agreeableness": 6.0,
+          "conscientiousness": 7.0,
+          "emotional-stability": 5.0,
+          "openness-to-experiences": 5.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "I'd like to have 2 extra packages of water and firewood.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00040_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I see. And I would like 2 extra packages of Food and 2 packages of  Water as well.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00040_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I have a great risk of dehydration.  I really need those 2 extra packages of water. You can have all the extra food.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00040_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Why do you have a risk of dehyrdation? Because I believe all people do but I do understand some people are at a greater risk then others. Tell me why you are at risk?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00040_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I have a medical condition that requires medication, and this medication requires me to drink an extra amount of water or else I will dehydrate. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00040_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "That is a problem. Does the medication require the use of fire or firewood as well?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00040_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "No, of course not. You can have the extra of those if you'd like. It is really the water that is the most important to me. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 7,
+      "turn_id": "dialogue_00040_turn_07",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Hmmm... I don't really need the firewood,just the food which you are offering and the water. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 8,
+      "turn_id": "dialogue_00040_turn_08",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Okay, can I have the 2 waters and 2 firewood then? I will give you all of the food, and 1 of the water. Do you need any firewood at all?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 9,
+      "turn_id": "dialogue_00040_turn_09",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Since carrying the extra would could make your dehydration worse, I'll take any firewood you don't want. But I'll give you the 2 waters and firewood then for the 3 food and 1 firewood. Deal?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 10,
+      "turn_id": "dialogue_00040_turn_10",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Yes,thank you for agreeing to the water. I'll give you all the food (3) and 1 firewood and 1 water ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 11,
+      "turn_id": "dialogue_00040_turn_11",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I couldn't live well with myself if I would let you die. You can have the two waters and 2 firewoods. Please be careful with your meds.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 12,
+      "turn_id": "dialogue_00040_turn_12",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I think we've got a fair split here. You take 2 food, 1 water, and 1 firewood. I'll take the rest: 1 food, 2 waters, and 2 firewoods. It balances our needs and keeps us both safe. Let's call it a deal.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00040_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00040_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

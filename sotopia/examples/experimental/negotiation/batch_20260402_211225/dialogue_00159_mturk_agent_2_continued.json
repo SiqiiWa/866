@@ -1,0 +1,362 @@
+{
+  "dialogue_index": 159,
+  "dialogue_name": "dialogue_00159",
+  "perspective": "mturk_agent_2",
+  "selected_important_turn": {
+    "turn_index": 2,
+    "text": "I agree. I have diabetes, so water and food are super important to me. My diabetes makes me super thirsty and I have to make sure I keep my blood sugar under control with certain foods ☹️",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "positive_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "prosocial",
+        "action_type": "info"
+      }
+    },
+    "why_important": "This turn is the key factual disclosure that justifies prioritizing water and food for YOU. It shapes all subsequent offers and concessions by providing the opponent a clear reason to yield water.",
+    "why_improvable_or_worth_amplifying": "While the personal disclosure builds rapport and explains needs, it is vague about concrete requirements (how much water/food is minimally necessary, timing, or tradeoff flexibility). Without specifics, the opponent must guess the scale of the need, which can produce suboptimal tradeoffs or missed integrative splits.",
+    "better_direction": "Keep the empathetic disclosure but add concrete, negotiable constraints or thresholds (e.g., minimum daily water/food units you need, which foods are essential, what you could trade away). Frame the detail as helping the partner propose fair trades (willingness to accept more of X in exchange for Y).",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "Likely increase — more precise needs enable tailored, efficient trades that create value for both sides.",
+      "fairness": "Increase — specificity helps ensure the allocation matches real needs rather than vague assumptions.",
+      "ease_of_agreement": "Increase — clearer constraints lower back-and-forth and speed convergence on mutually acceptable splits.",
+      "relationship": "Slight increase — still cooperative disclosure but more practical; preserves empathy while enabling problem-solving."
+    }
+  },
+  "annotation_turn_index": 2,
+  "matched_text_turn_index": 3,
+  "preserved_through_turn_index": 3,
+  "prefix_turn_count": 3,
+  "continued_from_turn_index": 4,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Water",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "You're never out of potential firewood in a forest",
+        "Medium": "Water can be found in the wild and purified",
+        "High": "Food is very important and harder to forage for in the wild if you run out."
+      },
+      "outcomes": {
+        "points_scored": 19,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 36,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 6.0,
+          "conscientiousness": 5.5,
+          "emotional-stability": 5.5,
+          "openness-to-experiences": 4.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I was able to already get some firewood from the campground. I don't really need much more! ",
+        "Medium": "Again, with the diabetes, I need to make sure I keep my blood sugar level stable with food!",
+        "High": "I have diabetes which tends to make me more thirsty."
+      },
+      "outcomes": {
+        "points_scored": 19,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 24,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 2 year college, no degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 6.0,
+          "agreeableness": 4.5,
+          "conscientiousness": 6.0,
+          "emotional-stability": 3.5,
+          "openness-to-experiences": 3.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello! I'm so excited for this camping trip. What do you still need as your supplies?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00159_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I think food, water, and firewood are all going to be fairly important.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00159_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I agree. I have diabetes, so water and food are super important to me. My diabetes makes me super thirsty and I have to make sure I keep my blood sugar under control with certain foods ☹️",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00159_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I have diabetes, so I need at least 2 water packages and 1 food package to stay stable. I’m willing to trade firewood for extra water or food if needed. What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00159_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for water and food. Since I value food most, I’m willing to offer 2 food packages and 1 water package in exchange for 3 firewood packages. This way, you get your essentials, and I secure high-value food while balancing the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00159_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need at least 2 water and 1 food to manage my diabetes. If you give me 2 water and 1 food, I’ll give you 2 firewood. If you want more, I can trade 1 firewood for 1 water or food. What works for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00159_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm happy to adjust. If you take 2 water and 1 food, I’ll take 2 firewood. That meets your diabetes needs and gives me 5 points for food. Let’s confirm this split.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00159_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need at least 2 water and 1 food to manage my diabetes. If you give me 2 water and 1 food, I’ll give you 2 firewood. If you want more, I can trade 1 firewood for 1 water or food. What works for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00159_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I agree to the split: you take 2 water and 1 food, and I take 2 firewood. This meets your diabetes needs and aligns with my priorities. Let’s confirm and then I’ll leave.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00159_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Deal confirmed: I take 2 water and 1 food, you take 2 firewood. Let’s finalize and I’ll leave.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00159_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00159_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

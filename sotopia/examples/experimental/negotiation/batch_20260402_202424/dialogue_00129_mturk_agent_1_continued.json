@@ -1,0 +1,359 @@
+{
+  "dialogue_index": 129,
+  "dialogue_name": "dialogue_00129",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 3,
+    "text": "I feel like I might need more firewood, I'm staying in the desert and it gets cold at night.",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "proself",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "info"
+      }
+    },
+    "why_important": "This early turn mirrors the opponent's proself information move and reinforces a competitive, zero-sum tone. By responding to the opponent's justification with a self-justifying claim, it narrows the space for integrative tradeoffs and sets a more adversarial trajectory for the negotiation.",
+    "why_improvable_or_worth_amplifying": "Although it's reasonable to state needs, this turn simply reciprocated the opponent's competitive framing rather than opening possibilities to explore interests or create trades. That reciprocal escalation reduced opportunities to discover complementary differences (e.g., you highly value water) and harmed mutual understanding.",
+    "better_direction": "Shift from an immediate self-justification to a prosocial, information-seeking stance: acknowledge the opponent's need, briefly state your main priority (without framing as a demand), and ask questions to explore trade options or constraints. For example, invite discussion of what each of you absolutely needs and whether there are flexible items that could enable a mutually better split.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — opening exploratory dialogue would make integrative trades more likely",
+      "fairness": "increase — a less adversarial tone encourages more balanced proposals",
+      "ease_of_agreement": "increase — building understanding reduces resistance to compromise",
+      "relationship": "increase — signaling cooperation early builds trust and rapport"
+    }
+  },
+  "annotation_turn_index": 3,
+  "matched_text_turn_index": 4,
+  "preserved_through_turn_index": 4,
+  "prefix_turn_count": 4,
+  "continued_from_turn_index": 5,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "Not much food, need to bring extra",
+        "Medium": "Cold at night in the desert",
+        "High": "I'm camping in the desert with no water supply"
+      },
+      "outcomes": {
+        "points_scored": 22,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 19,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, no degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 4.0,
+          "agreeableness": 4.0,
+          "conscientiousness": 5.0,
+          "emotional-stability": 2.5,
+          "openness-to-experiences": 6.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I can get water elsewhere",
+        "Medium": "I want to make a nice dinner",
+        "High": "I want to cook smores"
+      },
+      "outcomes": {
+        "points_scored": 18,
+        "satisfaction": "Slightly dissatisfied",
+        "opponent_likeness": "Undecided"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 1.0,
+          "agreeableness": 4.5,
+          "conscientiousness": 4.5,
+          "emotional-stability": 3.0,
+          "openness-to-experiences": 3.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hi, I would like two firewoods and two food. You can take everything else. Does that work for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00129_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "That might work. What reasons do you have for needing those?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00129_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I want to make smores and a nice dinner",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00129_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I feel like I might need more firewood, I'm staying in the desert and it gets cold at night.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00129_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I understand you need water too. Since I’m in the desert, water is my top priority. What do you absolutely need? Maybe we can find a balance on the other items.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00129_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need firewood to make s'mores. I'm willing to trade 2 water for 1 firewood if you need it. Let’s find a fair split for the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00129_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need water most, but I’m open to trading some for firewood if it helps. What’s your main priority? Maybe we can find a balance.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00129_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need firewood for s'mores, so I'll take 3 firewood. Let's split the remaining 3 water and 3 food evenly. That way, I get my priority items and you get what you need too.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00129_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 water for survival, so I can’t trade them. But I’m willing to take 2 firewood and 1 food if you’re okay with 1 water and 2 food. That way, we both get what we need without losing too much.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00129_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need 3 firewood for s'mores, so I'll take all 3. You can have the 3 water and 3 food. That way, I get my priority and you get what you need. Deal?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00129_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00129_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

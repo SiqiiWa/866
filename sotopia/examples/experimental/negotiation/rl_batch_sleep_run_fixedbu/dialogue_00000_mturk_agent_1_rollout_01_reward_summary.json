@@ -1,0 +1,67 @@
+{
+  "dialogue_index": 0,
+  "current_A_id": "mturk_agent_1",
+  "current_B_id": "mturk_agent_2",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00000_mturk_agent_1_rollout_01_continued.json",
+  "self_svi_A": 0.7261904761904763,
+  "other_svi_B_to_A": 0.6904761904761905,
+  "utility_A": 0.0,
+  "utility_B": 0.0,
+  "joint_utility": 0.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.7261904761904763,
+    "other_svi_B_to_A": 0.6904761904761905,
+    "utility_A": 0.0,
+    "joint_utility": 0.0
+  },
+  "final_reward": 0.3541666666666667,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 5,
+    "fallback_neutral": 1
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00000_turn_11",
+    "dialogue_00000_turn_13"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 11,
+      "turn_id": "dialogue_00000_turn_11",
+      "text": "Okay, that seems fair. Let me just confirm the split: 3 firewood, 1 food, and 1 water for you, and 2 firewood, 2 food, and 2 water for me. That should work for both of us!",
+      "b1": -1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.5227272727272727,
+      "decomposed_reward": 0.18513257575757577
+    },
+    {
+      "turn_index": 13,
+      "turn_id": "dialogue_00000_turn_13",
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "b1": -1.0,
+      "a": 0.0,
+      "b2": 0.0,
+      "b1_label": "proself",
+      "a_label": "neutral",
+      "b2_label": "neutral",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "fallback-neutral",
+      "raw_stance_score": 1.0,
+      "stance_signal_i": 0.625,
+      "raw_i": 0.625,
+      "weight_i": 0.4772727272727273,
+      "decomposed_reward": 0.1690340909090909
+    }
+  ]
+}

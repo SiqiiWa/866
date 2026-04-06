@@ -1,0 +1,16 @@
+.codex
+.codex/
+**/.git.backup/
+**/.venv/
+**/.pytest_cache/
+**/__pycache__/
+*.pyc
+
+*.tar.gz
+*.deb
+*.deb.1
+
+**/checkpoints/
+**/adapter/
+*.pt
+*.safetensors

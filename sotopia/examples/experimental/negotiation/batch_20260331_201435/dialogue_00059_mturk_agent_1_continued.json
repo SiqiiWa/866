@@ -1,0 +1,395 @@
+{
+  "dialogue_index": 59,
+  "dialogue_name": "dialogue_00059",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 7,
+    "text": "you pointed out that we will need more!  😮 i will take 2 waters",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "offer"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn directly responds to the opponent's integrative offer (they proposed a trade: accept less food/firewood to get all waters). By immediately claiming two waters unilaterally, you shut down the opponent's conditional trade and convert a cooperative opportunity into a zero-sum claim.",
+    "why_improvable_or_worth_amplifying": "It's a missed opportunity to preserve or expand the integrative trade the opponent opened. The move is competitive and dismisses the opponent's attempt to trade, making later bargaining more adversarial and reducing chances for mutually better outcomes.",
+    "better_direction": "Instead of an immediate unilateral claim, respond to the opponent's conditional offer with a clarifying question or a conditional counterproposal that preserves trade possibilities (e.g., ask whether their concession holds if you keep 1 water, or propose a concrete trade-off that satisfies both parties' critical needs).",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase (by enabling integrative trade rather than locking resources into a zero-sum split)",
+      "fairness": "improve (by enabling an explicitly negotiated trade rather than an abrupt claim)",
+      "ease_of_agreement": "increase (makes agreement easier because both sides can see concrete tradeoffs)",
+      "relationship": "improve (shows willingness to negotiate rather than grab resources)"
+    }
+  },
+  "annotation_turn_index": 7,
+  "matched_text_turn_index": 8,
+  "preserved_through_turn_index": 8,
+  "prefix_turn_count": 8,
+  "continued_from_turn_index": 9,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I have asked all the girls to bring their own water.",
+        "Medium": "We will need firewood to cook dinner for everyone.",
+        "High": "I am bringing a girl scout troop, and we will cook over the fire for everyone in camp"
+      },
+      "outcomes": {
+        "points_scored": 16,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Extremely dislike"
+      },
+      "demographics": {
+        "age": 36,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 2 year college, no degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 3.5,
+          "agreeableness": 5.0,
+          "conscientiousness": 5.0,
+          "emotional-stability": 2.0,
+          "openness-to-experiences": 6.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I am camping next to a river after a recent rain, the water in my area is plentiful.",
+        "Medium": "It rained recently where I'll be camping and the wood in the area will be too damp to take a flame. I'll need more to keep warm.",
+        "High": "I am terrible at fishing and will be unable to catch my food, so I will need more packages of food to survive."
+      },
+      "outcomes": {
+        "points_scored": 20,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Slightly dislike"
+      },
+      "demographics": {
+        "age": 28,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "high school graduate / ged"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 4.0,
+          "agreeableness": 3.0,
+          "conscientiousness": 5.0,
+          "emotional-stability": 6.5,
+          "openness-to-experiences": 3.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello! I'll be camping soon and need to get my hands on some supplies. The food is what I need the most.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00059_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I'm glad you are joining the camp! I will be bringing my girl scout troop for some badge earning opportunities.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00059_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Oh my. A whole troop of girl scouts will probably be bringing lots of food with them to share, and plenty of people around to collect firewood. It is going to be just me and my son on this camping trip, his first time.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00059_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "We were planning on getting our outdoor cooking badge by making  a big meal over the campfire tonight. I wll need plenty of firewood for that, but I can manage with only one food.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00059_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "A lot of the firewood in my area is wet, so I'll need some extra packages of it as well. You're going to have a lot of people and a big fire, so it would be smart to keep a lot of water on hand to drink/in case the fire gets out of hand.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00059_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "All my girls have brought canteens. I must have enough firewood if they will earn their badge. You can have one, but I won't be able to make due without 2.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00059_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I could manage with one firewood and two foods, but if you have canteens for everyone, may I then have all three waters? I had planned to collect water from the river, but I'm worried I may get sick.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 7,
+      "turn_id": "dialogue_00059_turn_07",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "you pointed out that we will need more!  😮 i will take 2 waters",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 8,
+      "turn_id": "dialogue_00059_turn_08",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I’m happy to trade, but let’s make sure we’re both clear on what’s fair. If I keep 1 water, would you be willing to give up 1 food or firewood in exchange?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00059_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'd be willing to trade 1 food for 1 water, but I need at least 2 food packages to survive. Let's discuss how we can split the rest fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00059_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for food, but I’m more concerned about ensuring we have enough firewood for cooking. What if we trade 1 food for 2 firewood instead? That way, we both meet our priorities.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00059_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I need at least 2 food packages to survive, so I can’t trade more than 1 food. If you give me 2 firewood for 1 food, I’ll agree. Let’s try that deal.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00059_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00059_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

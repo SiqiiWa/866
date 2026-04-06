@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 10,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00010_mturk_agent_2_rollout_01_continued.json",
+  "self_svi_A": 0.7380952380952381,
+  "other_svi_B_to_A": 0.761904761904762,
+  "utility_A": 0.0,
+  "utility_B": 0.0,
+  "joint_utility": 0.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.7380952380952381,
+    "other_svi_B_to_A": 0.761904761904762,
+    "utility_A": 0.0,
+    "joint_utility": 0.0
+  },
+  "final_reward": 0.375,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00010_turn_08",
+    "dialogue_00010_turn_10",
+    "dialogue_00010_turn_12"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 8,
+      "turn_id": "dialogue_00010_turn_08",
+      "text": "I understand you're looking to trade food for water. How many packages do you need, and how many do you have available? Let's explore a multi-item trade that balances our needs, like swapping 1 water for 1 food and 1 firewood, to ensure we both get what we need.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.35416666666666663,
+      "decomposed_reward": 0.1328125
+    },
+    {
+      "turn_index": 10,
+      "turn_id": "dialogue_00010_turn_10",
+      "text": "I see. If we swap 1 water for 1 food and 1 firewood, that would give me 2 water, 2 food, and 2 firewood. But I need to ensure we both have enough water. How about we split the remaining 2 water, 2 food, and",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.35416666666666663,
+      "decomposed_reward": 0.1328125
+    },
+    {
+      "turn_index": 12,
+      "turn_id": "dialogue_00010_turn_12",
+      "text": "Agreed. Final split: 3 water, 2 food, 2 firewood for you, and 3 water, 2 food, 2 firewood for me.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 0.0,
+      "stance_signal_i": 0.5,
+      "raw_i": 0.5,
+      "weight_i": 0.29166666666666663,
+      "decomposed_reward": 0.109375
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "labels": [
+    "neutral",
+    "proself",
+    "prosocial"
+  ],
+  "baseline": {
+    "path": "/home/swang4/866/data/baseline_2/stance_labels_125-174.json",
+    "dialogue_count": 100,
+    "annotation_count": 1480,
+    "continued_only": false,
+    "raw_result_count": 100,
+    "duplicate_result_count": 0,
+    "counts": {
+      "neutral": 124,
+      "proself": 597,
+      "prosocial": 759
+    },
+    "percentages": {
+      "neutral": 0.08378378378378379,
+      "proself": 0.40337837837837837,
+      "prosocial": 0.5128378378378379
+    },
+    "by_speaker": {
+      "OTHER": {
+        "counts": {
+          "neutral": 0,
+          "proself": 0,
+          "prosocial": 0
+        },
+        "percentages": {
+          "neutral": 0.0,
+          "proself": 0.0,
+          "prosocial": 0.0
+        }
+      },
+      "THEM": {
+        "counts": {
+          "neutral": 56,
+          "proself": 305,
+          "prosocial": 379
+        },
+        "percentages": {
+          "neutral": 0.07567567567567568,
+          "proself": 0.41216216216216217,
+          "prosocial": 0.5121621621621621
+        }
+      },
+      "YOU": {
+        "counts": {
+          "neutral": 68,
+          "proself": 292,
+          "prosocial": 380
+        },
+        "percentages": {
+          "neutral": 0.0918918918918919,
+          "proself": 0.3945945945945946,
+          "prosocial": 0.5135135135135135
+        }
+      }
+    }
+  },
+  "rl": {
+    "path": "/home/swang4/866/data/baseline_2/stance_labels_batch_20260402_211225_continued.json",
+    "dialogue_count": 100,
+    "annotation_count": 631,
+    "continued_only": true,
+    "raw_result_count": 123,
+    "duplicate_result_count": 23,
+    "counts": {
+      "neutral": 29,
+      "proself": 247,
+      "prosocial": 355
+    },
+    "percentages": {
+      "neutral": 0.04595879556259905,
+      "proself": 0.39144215530903326,
+      "prosocial": 0.5625990491283677
+    },
+    "by_speaker": {
+      "OTHER": {
+        "counts": {
+          "neutral": 0,
+          "proself": 0,
+          "prosocial": 0
+        },
+        "percentages": {
+          "neutral": 0.0,
+          "proself": 0.0,
+          "prosocial": 0.0
+        }
+      },
+      "THEM": {
+        "counts": {
+          "neutral": 9,
+          "proself": 148,
+          "prosocial": 160
+        },
+        "percentages": {
+          "neutral": 0.028391167192429023,
+          "proself": 0.4668769716088328,
+          "prosocial": 0.5047318611987381
+        }
+      },
+      "YOU": {
+        "counts": {
+          "neutral": 20,
+          "proself": 99,
+          "prosocial": 195
+        },
+        "percentages": {
+          "neutral": 0.06369426751592357,
+          "proself": 0.31528662420382164,
+          "prosocial": 0.6210191082802548
+        }
+      }
+    }
+  },
+  "delta": {
+    "counts": {
+      "neutral": -95,
+      "proself": -350,
+      "prosocial": -404
+    },
+    "percentage_points": {
+      "neutral": -3.782498822118474,
+      "proself": -1.1936223069345109,
+      "prosocial": 4.976121129052979
+    }
+  }
+}

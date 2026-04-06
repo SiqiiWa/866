@@ -1,0 +1,328 @@
+{
+  "dialogue_name": "dialogue_4",
+  "annotations": [
+    {
+      "turn_index": 0,
+      "speaker": "THEM",
+      "text": "Hello how are you today? 🙂 Do you have any initial ideas on how to split everything?",
+      "opponent_preference_inference": {
+        "reasoning": "No new evidence from the dialogue to determine any of the opponent's preferences among food, water, or firewood.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "prosocial",
+      "action_type": "info",
+      "reasoning": "The THEM's message asks for initial ideas on how to split everything, which signals a collaborative, information-seeking approach aimed at finding an integrative solution rather than asserting demands. Since there is no explicit preference stated and the move is to gather options, this leans toward prosocial rather than proself. The action is primarily information-seeking (requesting ideas), which supports a cooperative stance.",
+      "xml_output": "<reason>The THEM's message asks for initial ideas on how to split everything, which signals a collaborative, information-seeking approach aimed at finding an integrative solution rather than asserting demands. Since there is no explicit preference stated and the move is to gather options, this leans toward prosocial rather than proself. The action is primarily information-seeking (requesting ideas), which supports a cooperative stance.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 1,
+      "speaker": "YOU",
+      "text": "I was thinking maybe I could have a majority of the fire food and you can have a majority of the water and food.",
+      "opponent_preference_inference": {
+        "reasoning": "No new evidence from the dialogue reveals a change in the opponent's preferences. The only line is about a proposed split, which does not clearly state any item's priority for the opponent.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "prosocial",
+      "action_type": "offer",
+      "reasoning": "The last utterance proposes a distribution where the speaker claims a majority of firewood while offering the opponent a majority of water and food. This is a concrete division proposal that seeks a mutual concession and shares resources rather than insisting on an all-or-nothing split. It moves toward a balanced outcome and cooperative division, indicating an integrative approach rather than a purely self-centered grab.",
+      "xml_output": "<reason>The speaker proposes a split that allocates different items between parties, aiming for a mutual arrangement rather than a strictly zero-sum claim.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "THEM",
+      "text": "What exactly do you mean by majority? As in everything ?",
+      "opponent_preference_inference": {
+        "reasoning": "No new evidence from the dialogue reveals a change in the opponent's preferences. The latest exchange is a clarification question about what 'majority' means and does not indicate a new item priority.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "neutral",
+      "action_type": "info",
+      "reasoning": "The last utterance from THEM is a request for clarification about the meaning of 'majority' and whether it refers to everything. It does not reveal or push a preference, and it seeks information to clarify how to proceed, which is neutral in terms of strategic stance.",
+      "xml_output": "<reason>Clarification request about meaning of 'majority' doesn't reveal a preference or push a strategy; it seeks information.</reason><answer>NEUTRAL</answer>"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "YOU",
+      "text": "I was more thinking 2 Firewood for me , 1 food and 1 water? The rest would be yours.",
+      "opponent_preference_inference": {
+        "reasoning": "No new evidence that reveals a change in opponent's preferences. The latest lines concern majority definition and do not indicate priority; thus keep prior ranking.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "proself",
+      "action_type": "offer",
+      "reasoning": "The last utterance proposes a division favoring the speaker: 2 Firewood for me, 1 food and 1 water, with the rest allocated to the other party. This is self-serving and aims to maximize the speaker's high-priority firewood share, making the split more zero-sum rather than cooperative. It is a concrete division proposal, i.e., an offer, not just information or a request.",
+      "xml_output": "<reason>The speaker proposes a self-favoring distribution (2 Firewood for me, rest to you), signaling a zero-sum aim.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "THEM",
+      "text": "That is a promising bargain but I want at least 2 firewood, it makes for a fun time for my group.",
+      "opponent_preference_inference": {
+        "reasoning": "New evidence shows the opponent places a high priority on firewood, as they require at least 2 firewood pieces. This strongly suggests firewood is at or near the top of their preference. There is no explicit or reliable evidence distinguishing food versus water, so we infer a strict ranking with firewood first and place food above water based on earlier conversational hints about exchanging or prioritizing food-related items, but acknowledge the lack of explicit tie-breaker.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "medium",
+        "evidence_type": "implicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance from THEM insists on at least 2 firewood pieces and frames it as essential for their group's fun. This demand prioritizes their own high-value item (firewood) and limits the other party's share, which makes the negotiation more zero-sum. It’s not offering a mutual gain or suggesting a trade that benefits both sides, but rather pressing for a more favorable allocation for THEM. The explicit preference for firewood aligns with the inferred high priority of that item in their ranking.",
+      "xml_output": "<reason>The last utterance insists on at least 2 firewood pieces, framing it as essential for their group's fun, which narrows the other party's possible gains and increases zero-sum tension. It aligns with their high-priority firewood preference rather than offering mutual gains.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "YOU",
+      "text": "Interesting , because my group feels the same way though. How does your group feel about water though?",
+      "opponent_preference_inference": {
+        "reasoning": "New evidence shows the opponent requires at least 2 firewood pieces, signaling that firewood is a high priority. There is still no explicit preference between food and water, and no new information distinguishing them; thus the best-supported ranking remains firewood first, with food over water based on prior conversational hints, preserving the earlier implicit tie-breaker.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "implicit"
+      },
+      "stance": "neutral",
+      "action_type": "info",
+      "reasoning": "The last utterance is a clarification-seeking question about the opponent's group's feelings on water. It does not push for more of one's own share or threaten the other's outcome, and it facilitates information exchange to reach a mutual agreement. This is more cooperative/integrative in intent, i.e., prosocial, but it is primarily an information-seeking move rather than a commitment to a concrete allocation. Therefore, stance is neutral with respect to power dynamics of the negotiation, and action_type is info. The information-seeking nature reduces certainty about final balance should be kept neutral in stance strength.",
+      "xml_output": "<reason>The last utterance is a clarification-seeking question about the opponent's group’s feelings on water. It does not push for more of one's own share or threaten the other's outcome, and it facilitates information exchange to reach a mutual agreement. This is more cooperative/integrative in intent, i.e., prosocial, but it is primarily an information-seeking move rather than a commitment to a concrete allocation. Therefore, stance is neutral with respect to power dynamics of the negotiation, and action_type is info. The information-seeking nature reduces certainty about final balance should be kept neutral in stance strength.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "THEM",
+      "text": "Water is not that important for us but the firewood is a deal breaker for us ☹️",
+      "opponent_preference_inference": {
+        "reasoning": "New evidence directly indicates firewood is a deal breaker and must be at least 2 pieces; water is explicitly stated as not important. With water clearly deprioritized and firewood prioritized, the remaining comparison is between food and water, and water is least preferred. Therefore the strongest-supported ranking is firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance from THEM states that water is not important to them and that firewood is a deal breaker. This frames the negotiation as one where ensuring access to firewood dominates, implying a zero-sum, competitive dynamic rather than seeking mutual gains. It constrains terms around firewood while deprioritizing water, signaling a proself stance.",
+      "xml_output": "<reason>The opponent emphasizes firewood as a deal breaker and minimizes water importance, steering the negotiation toward a zero-sum focus on securing firewood.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 7,
+      "speaker": "YOU",
+      "text": "I see.... Well we really would like the firewood too though. Could you reconsider it makes a big difference for us.",
+      "opponent_preference_inference": {
+        "reasoning": "New statements confirm prior conclusions: water is not important to THEM and firewood is a deal breaker, making firewood the top priority. Since there was already an explicit emphasis on firewood and water's low importance, the remaining comparison is between food and water, with water definitively least preferred. Therefore the strongest-supported, unchanged ranking is firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance is a direct push to secure more firewood by asking the other party to reconsider, reinforcing the speaker's own priority for firewood and increasing pressure on the other side. The opponent already stated firewood is a deal breaker, and the speaker is attempting to tilt the split toward their preference without offering a joint alternative. This is a competitive move aimed at getting the best outcome for the speaker's side, making the situation more zero-sum.",
+      "xml_output": "<reason>Directly trying to influence the other side to concede on firewood, aligning with a competitive, self-serving goal.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 8,
+      "speaker": "THEM",
+      "text": "Sorry I will only consider a deal if I can get at least two fire wood.",
+      "opponent_preference_inference": {
+        "reasoning": "The opponent explicitly states water is not important and firewood is a deal breaker, indicating firewood is the top priority. There is no explicit statement about food vs water beyond water being least important, so food is inferred to be preferred over water. Therefore the strongest-supported ranking is firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The opponent states a hard constraint: they will only consider a deal if they get at least two firewood. This doubles down on firewood as a deal-breaker and makes the negotiation more zero-sum, pressing for their top priority while threatening to veto otherwise. This behavior is competitive and concentrates on gaining more for their own side at the potential expense of the other side. The action type is influence, as they are steering the terms to secure their preferred outcome rather than offering a joint solution. The strength of the stance is proself because the action directly reduces mutual gains and prioritizes one party's needs over collaborative integrative negotiation.",
+      "xml_output": "<reason>The opponent states a hard constraint: they will only consider a deal if they get at least two firewood. This doubles down on firewood as a deal-breaker and makes the negotiation more zero-sum, pressing for their top priority while threatening to veto otherwise. This behavior is competitive and concentrates on gaining more for their own side at the potential expense of the other side. The action type is influence, as they are steering the terms to secure their preferred outcome rather than offering a joint solution. The strength of the stance is proself because the action directly reduces mutual gains and prioritizes one party's needs over collaborative integrative negotiation.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 9,
+      "speaker": "YOU",
+      "text": "Well if that is the case then I want 1 Firewood 3 waters and 2 Food then.",
+      "opponent_preference_inference": {
+        "reasoning": "The opponent has explicitly stated that firewood is a deal breaker and water is not important, which strongly suggests firewood is the top priority and water is least preferred. With food not explicitly ranked but implied to be preferred over water, the strongest-supported ordering is firewood > food > water. This aligns with prior inference and uses new explicit statements to reinforce the same ranking.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "offer",
+      "reasoning": "The last utterance says: \"I want 1 Firewood 3 waters and 2 Food then.\" This is a clear offer of a division where the speaker seeks the smaller share of the highly valued resource (firewood) and concessions on less-preferred resources (water and food) for themselves. Given the opponent's stated priority (firewood is critical) this proposal keeps most firewood away from the opponent, amplifying the zero-sum nature and pressing for a favorable outcome for the speaker. This aligns with proself behavior, as it maximizes personal advantage at the potential cost to the other party.",
+      "xml_output": "<reason>Last utterance proposes a division where the speaker takes 1 Firewood, 3 waters, and 2 Food, giving themselves the less valued (for them) resources and withholding more Firewood, which is the opponent's priority. This increases zero-sum tension and favors the speaker.</reason><answer>PROSELF</answer>"
+    },
+    {
+      "turn_index": 10,
+      "speaker": "THEM",
+      "text": "That is kind of excessive though.... 6 - 3 of an item share?",
+      "opponent_preference_inference": {
+        "reasoning": "New explicit statements reinforce the previous ranking: firewood is the deal breaker and water is not important, which strongly supports firewood as top priority and water as bottom. Food is not explicitly ranked but is reasonably inferred to be preferred over water. No new evidence contradicts the prior inference, so the ranking remains firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance questions the proposed distribution by calling it excessive and suggests a constraint on the share (6-3). This reflects a pushback to maximize own benefit and minimize concessions, maintaining a competitive stance typical of proself behavior. It does not demonstrate collaborative problem-solving or mutual gain, but rather tries to steer the deal toward less favorable terms for the other party. The move is a tactical influence to shape the negotiation outcome without offering a cooperative alternative.",
+      "xml_output": "<reason>The last utterance questions the distribution and signals a pushback to steer the deal toward less favorable terms for the other party, indicating a proself stance.</reason><answer>PROSELF</answer>"
+    },
+    {
+      "turn_index": 11,
+      "speaker": "YOU",
+      "text": "Well you wanted the firewood so take it or leave it.",
+      "opponent_preference_inference": {
+        "reasoning": "Explicit statements from THEM: firewood is a deal breaker and water is not important. This directly supports firewood as top priority and water as lowest. Food is not explicitly ranked but can be reasonably inferred as preferred over water given its presence in the bargaining mix and lack of emphasis on it being unimportant. No new evidence contradicts the previous inference, so the ranking remains firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance functions as an ultimatum that forces the other party to accept the speaker's preferred allocation (firewood) or walk away, which tightens the distributive, zero-sum dynamics. It explicitly prioritizes the speaker’s desired outcome (firewood) and dismisses further negotiation, aligning with proself behavior. It’s not offering a joint gain or cooperative trade, but rather a command to accept terms, increasing competitive tension.",
+      "xml_output": "<reason>The last utterance functions as an ultimatum that forces the other party to accept the speaker's preferred allocation (firewood) or walk away, which tightens the distributive, zero-sum dynamics. It explicitly prioritizes the speaker’s desired outcome (firewood) and dismisses further negotiation, aligning with proself behavior. It’s not offering a joint gain or cooperative trade, but rather a command to accept terms, increasing competitive tension.</reason><answer>PROSELF</answer>"
+    },
+    {
+      "turn_index": 12,
+      "speaker": "THEM",
+      "text": "Can we do 5 - 4? and 2 fire wood , 1 food and 1 water for me?",
+      "opponent_preference_inference": {
+        "reasoning": "THEM explicitly stated earlier that firewood is a deal breaker and water is not important. This directly places firewood at the top and water at the bottom. Food has not been declared explicitly ranked, but given it is included in bargaining and not labeled unimportant, it is reasonable to place it above water. No new statements contradict firewood > food > water, so the previous ranking remains valid.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "offer",
+      "reasoning": "The last utterance is a direct negotiation proposal from THEM: a specific split (5-4) with THEM requesting 2 firewood, 1 food, and 1 water for themselves. This is a self-serving offer designed to maximize THEIR share, reflecting a zero-sum framing rather than collaborative problem-solving. Therefore, it is classified as an offer (a bargaining proposal) and stance is proself. The action is strategic bargaining aimed at influencing the other party toward their preferred allocation, which strengthens the proself characterization. ",
+      "xml_output": "<reason>The last utterance is a direct negotiation proposal from THEM: a specific split (5-4) with THEM requesting 2 firewood, 1 food, and 1 water for themselves. This is a self-serving offer designed to maximize THEIR share, reflecting a zero-sum framing rather than collaborative problem-solving. Therefore, it is classified as an offer (a bargaining proposal) and stance is proself. The action is strategic bargaining aimed at influencing the other party toward their preferred allocation, which strengthens the proself characterization.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 13,
+      "speaker": "YOU",
+      "text": "No😡",
+      "opponent_preference_inference": {
+        "reasoning": "Opponent stated firewood is a deal breaker and water is not important. They also accepted a bargaining position involving food, suggesting food is more valuable than water. No statements contradicting firewood > food > water have appeared since the last update, so the prior ranking remains valid.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "proself",
+      "action_type": "influence",
+      "reasoning": "The last utterance 'No' is a clear rejection that constrains the negotiation terms and blocks the other party's preferred allocation, contributing to a more zero-sum dynamic. It does not provide new information, offer a concession, or seek a joint solution, thus it functions as a competitive move. The move intensifies the negotiation's competitive nature, aligning with proself. ",
+      "xml_output": "<reason>The last utterance 'No' is a clear rejection that constrains the negotiation terms and blocks the other party's preferred allocation, contributing to a more zero-sum dynamic. It does not provide new information, offer a concession, or seek a joint solution, thus it functions as a competitive move. The move intensifies the negotiation's competitive nature, aligning with proself.</reason><answer>PROSELF</answer>"
+    },
+    {
+      "turn_index": 14,
+      "speaker": "THEM",
+      "text": "Please its really unfair... The items are still in your favor. My family really needs the firewood and some additional water and food would make our day so much better. You are still coming out on top with excess supplies.",
+      "opponent_preference_inference": {
+        "reasoning": "Explicit statements: firewood is a deal breaker and water is not important. Previous concessions show food is more valuable than water. No new evidence contradicts the prior ranking firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "prosocial",
+      "action_type": "influence",
+      "reasoning": "The last utterance from THEM appeals to fairness and the needs of their family, framing the distribution as unfair and requesting adjustments to include more water and food alongside their required firewood. This is an attempt to make the outcome more integrative rather than purely zero-sum, aligning with cooperative bargaining dynamics.",
+      "xml_output": "<reason>THEM appeals to fairness and needs, seeking a more balanced, integrative outcome.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 15,
+      "speaker": "YOU",
+      "text": "I guess, I can do that deal...",
+      "opponent_preference_inference": {
+        "reasoning": "Explicit statements: firewood is a deal breaker and water is not important. Throughout the dialogue, the opponent repeatedly prioritizes obtaining firewood and shows willingness to trade other items, implying food is more valuable than water. No new evidence contradicts the prior ranking firewood > food > water.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "prosocial",
+      "action_type": "offer",
+      "reasoning": "The last utterance shows the agent agreeing to the other party's proposed division, signaling a willingness to move toward an agreement and share resources. This reduces zero-sum tension and leans toward cooperative negotiation rather than demanding more for themselves. The move can be seen as an integrative step, though still guided by prior priority on firewood; overall it tilts toward prosocial behavior by seeking a workable compromise for both sides. The stance is not purely neutral since there is a clear cooperative move, but it doesn't fully concede all preferences, so it’s a moderate prosocial stance. The action is a negotiation offer/confirmation rather than pure information or manipulation.",
+      "xml_output": "<reason>The last utterance shows the agent agreeing to the other party's proposed division, signaling a willingness to move toward an agreement and share resources. This reduces zero-sum tension and leans toward cooperative negotiation rather than demanding more for themselves. The move can be seen as an integrative step, though still guided by prior priority on firewood; overall it tilts toward prosocial behavior by seeking a workable compromise for both sides. The stance is not purely neutral since there is a clear cooperative move, but it doesn't fully concede all preferences, so it’s a moderate prosocial stance.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 16,
+      "speaker": "THEM",
+      "text": "Thank you so much! 🙂",
+      "opponent_preference_inference": {
+        "reasoning": "Explicit statements: water is not important for them and firewood is a deal breaker. They repeatedly prioritize obtaining firewood, and they require at least two firewood, indicating firewood is the highest priority. While they show willingness to trade other items, there is no explicit statement reversing the priority. Therefore, the inferred ranking firewood > food > water remains consistent with new exchanges.",
+        "preference_order": [
+          "firewood",
+          "food",
+          "water"
+        ],
+        "confidence": "high",
+        "evidence_type": "explicit"
+      },
+      "stance": "prosocial",
+      "action_type": "non-strategic",
+      "reasoning": "The last utterance from THEM is a polite closing with gratitude, signaling satisfaction with the negotiated outcome and a cooperative tone. This indicates a move toward an integrative, collaborative resolution rather than a competitive stance, making the interaction more prosocial. No new explicit preferences are stated, and the tone implies agreement and goodwill rather than hard bargaining.",
+      "xml_output": "<reason>The last utterance signals gratitude and satisfaction, indicating a cooperative, integrative move.</reason><answer>PROSOCIAL</answer>"
+    }
+  ]
+}

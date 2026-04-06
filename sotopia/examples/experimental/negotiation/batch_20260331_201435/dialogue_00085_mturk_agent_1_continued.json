@@ -1,0 +1,290 @@
+{
+  "dialogue_index": 85,
+  "dialogue_name": "dialogue_00085",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 2,
+    "text": "I will agree to 3 firewood for 2 water. Maybe I should extra food though so 2 food for me🙂",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "proself",
+        "action_type": "offer"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn converted an apparent concession (accepting the opponent's firewood-for-water proposal) into a self-serving extra claim for food, escalating the exchange into stronger competitive bargaining. It shifted the interaction toward zero-sum behavior at a moment when the opponent had just signaled a firm need and was using their water as a bargaining chip.",
+    "why_improvable_or_worth_amplifying": "Because the opponent started proself (demanding firewood), accepting their core demand while immediately making a new grab for more resources increased tension and lowered trust. A more constructive move could have preserved agreement momentum or opened integrative space (e.g., asking about needs or trading conditional concessions) instead of unilaterally claiming additional items.",
+    "better_direction": "Keep the acceptance of the firewood-for-water exchange but avoid adding a new uncompensated demand. Either (a) accept the opponent's proposal cleanly and ask a clarifying question about their needs (e.g., about water or carrying burden), or (b) if you need extra food, present it as a conditional, integrative request (offer to give something in return or ask if they'd be willing to split food) rather than an outright grab.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — moving from grabby counterclaims to conditional or informational moves would preserve integrative possibilities and avoid wasteful positional bargaining.",
+      "fairness": "increase — framing additional needs as tradeable or conditional makes outcomes feel more balanced than unilateral claims.",
+      "ease_of_agreement": "increase — reducing escalation makes it likelier parties finalize a deal without further rounds of positional demands.",
+      "relationship": "increase — avoiding abrupt extra claims preserves trust and reduces resentment."
+    }
+  },
+  "annotation_turn_index": 2,
+  "matched_text_turn_index": 3,
+  "preserved_through_turn_index": 3,
+  "prefix_turn_count": 3,
+  "continued_from_turn_index": 4,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "we will need to cook our food and stay warm",
+        "Medium": "if we are camping longer than planned, I want to make sure we have enough food",
+        "High": "it is going to be hot out so I need to have extra water"
+      },
+      "outcomes": {
+        "points_scored": 18,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 53,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 2 year college, associate's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 2.0,
+          "agreeableness": 7.0,
+          "conscientiousness": 6.0,
+          "emotional-stability": 5.0,
+          "openness-to-experiences": 5.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Water",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I get hungry often. I would like to have extra food.",
+        "Medium": "I am anemic and get dehydrated easily. Without extra water I could faint.",
+        "High": "I get cold easy and have a low immune system. I need firewood to stay warm or I could get sick."
+      },
+      "outcomes": {
+        "points_scored": 22,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 31,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "high school graduate / ged"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 6.5,
+          "conscientiousness": 5.5,
+          "emotional-stability": 3.5,
+          "openness-to-experiences": 5.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "The weather is going to be really hot. Could I have 2 water in exchange for you receiving 2 food and 2 firewood?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 1,
+      "turn_id": "dialogue_00085_turn_01",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I have a low immune system and need to stay warm how about I get all 3 firewood in exchange for the 2 water. ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 2,
+      "turn_id": "dialogue_00085_turn_02",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I will agree to 3 firewood for 2 water. Maybe I should extra food though so 2 food for me🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00085_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I need firewood to stay warm and avoid getting sick. I’m willing to give you 2 water and 1 food for all 3 firewood. That way, I can prioritize my health and we both get what we need.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00085_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for firewood. Let’s finalize the deal: you get 3 firewood for 2 water, and I’ll take 2 food. That way, we both meet our priorities. Does that work for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00085_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "That sounds fair. I’ll take the 3 firewood and 2 water, and you can have the 2 food. Let’s wrap this up so we can stay warm and hydrated.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00085_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I think that covers all the packages. Let me know if you need anything else, and we can head out.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00085_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Deal confirmed: I get 3 firewood and 2 water, you get 2 food. Let's head out and stay warm and hydrated.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00085_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

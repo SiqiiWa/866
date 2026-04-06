@@ -1,0 +1,461 @@
+{
+  "dialogue_index": 126,
+  "dialogue_name": "dialogue_00126",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 9,
+    "text": "Home cooking's the best, yumyums! We're planning on doing a lot of fishing since my son's been in love with fishing toys and is currently in love with eating fish (he hasn't gotten tired of eating it every night for dinner). We're thinking of cooking what we catch every night. Do you have any activities planned for your camping trip?",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "positive_reciprocal",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "prosocial",
+        "action_type": "info"
+      }
+    },
+    "why_important": "This turn immediately preceded the opponent's concrete allocation proposal (their integrative-sounding offer). It was therefore a high-leverage moment to shape the framing of the upcoming deal — either locking in collaborative options or leaving ambiguity that allowed competitive cycling. Clearer signals here could have made the opponent's offer more stable and reduced later escalation.",
+    "why_improvable_or_worth_amplifying": "As written it stays at rapport-building and does not state the speaker's priorities or tradeoffs. You had the chance to make your top concerns explicit (e.g., water reliability for a child) or to propose a simple trade (we'll take extra firewood in exchange for extra water). That missing clarity left room for misunderstanding and for the opponent to later retract or harden positions.",
+    "better_direction": "Use this conversational opening to state a concise, relevant preference or trade-off (e.g., emphasize water is critical for your child and indicate what you could give up in exchange), or to invite a conditional offer ('If you can take X, we'd be willing to take Y'). The goal is to convert rapport into a concrete integrative signal that narrows options constructively before they propose a deal.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase (moderate) — clarifying priorities enables mutually beneficial trades rather than zero-sum haggling.",
+      "fairness": "increase (moderate) — transparent needs let splits be tailored to who values what.",
+      "ease_of_agreement": "increase (moderate to strong) — reduces ambiguity and the chance of retractions/resistance.",
+      "relationship": "increase (small to moderate) — being explicit while cooperative builds trust and reduces frustration."
+    }
+  },
+  "annotation_turn_index": 9,
+  "matched_text_turn_index": 10,
+  "preserved_through_turn_index": 10,
+  "prefix_turn_count": 10,
+  "continued_from_turn_index": 11,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Firewood",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "We plan to be catching fish while camping and want to eat that",
+        "Medium": "We plan to be cooking a lot of the fish that we catch at the lake and may need additional fuel to cook them",
+        "High": "The only fresh water source is the lake at which we are camping at and I do not trust water filtration devices"
+      },
+      "outcomes": {
+        "points_scored": 5,
+        "satisfaction": "Undecided",
+        "opponent_likeness": "Extremely dislike"
+      },
+      "demographics": {
+        "age": 27,
+        "gender": "female",
+        "ethnicity": "asian american",
+        "education": "some 4 year college, no degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 2.5,
+          "agreeableness": 6.0,
+          "conscientiousness": 6.0,
+          "emotional-stability": 4.5,
+          "openness-to-experiences": 4.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "I would be able to warm up the water to keep my campsite clean, to heat water to bathe, to offer heated water to my guests to wash up, to keep my guests warm in the evening, to make s'mores ",
+        "Medium": "To have extra food to share, to be prepared if  there are others who drop by and need it.",
+        "High": "To be able to stay clean, hydrated and cooks food I would need more water"
+      },
+      "outcomes": {
+        "points_scored": 5,
+        "satisfaction": "Slightly dissatisfied",
+        "opponent_likeness": "Undecided"
+      },
+      "demographics": {
+        "age": 47,
+        "gender": "female",
+        "ethnicity": "other (please specify)",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 5.0,
+          "agreeableness": 7.0,
+          "conscientiousness": 5.0,
+          "emotional-stability": 7.0,
+          "openness-to-experiences": 7.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hello🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00126_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Hi! I'm going camping soon with my family at a lake! We're looking forward to it so much since we haven't been able to get out due to Covid. Are you going camping too?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00126_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Yes! I am also going with my family. My husband and I are essential workers but his hours all got cut. I got laid off from my job for part of the time.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00126_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "oh man that sucks ☹️! I know Congress is currently debating all of the unemployment stuff too. Where do you plan to be going camping?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00126_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "We didn't get unemployment or a stimulus check. ☹️ We are planning a trip to Missouri, Lake of the Ozarks. Our younger children have been cooped up so long we are hoping to let them get some sun and swimming in!",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00126_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "That sounds nice, maybe everyone just needs some fun to stay positive about everything. We're going camping along a lake and plan to do a lot of fishing. My husband got these filtration thingies so that we can drink the lake water but I don't really trust them. This will be my kid's first ever camping trip so we're super excited to make it fun for him.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00126_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "We have 7 people in our family,.. the youngest two kids have hardly been anywhere because of working. I think our camping area has those old fashioned hand pumps.☹️",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 7,
+      "turn_id": "dialogue_00126_turn_07",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Your two youngest kids are working? How old is everyone? If there's a lot of people, it will be easier to split up the duties and get things done. My son's 3 years old so as much as he's eager to help, there's not much he can do lol.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 8,
+      "turn_id": "dialogue_00126_turn_08",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Ha Ha...no my too youngest have hardly been anywhere because of us adults working,  I have teens (17, 15), tweens (13) and littles (10, 7). We 3 boys and 3 girls. We have a 21 year old but he's in a band so h can't go. They all pitch in anytime. They eat a lot so they have to cook from scratch at home. Awww 3 is so adorable...that's when they are sure they can do and will work so hard! ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 9,
+      "turn_id": "dialogue_00126_turn_09",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "Home cooking's the best, yumyums! We're planning on doing a lot of fishing since my son's been in love with fishing toys and is currently in love with eating fish (he hasn't gotten tired of eating it every night for dinner). We're thinking of cooking what we catch every night. Do you have any activities planned for your camping trip?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 10,
+      "turn_id": "dialogue_00126_turn_10",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I value water most for my child’s safety, so I’d be open to trading some firewood for extra water if it balances out fairly.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00126_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand the importance of water for your child. Let’s find a balance—how about 2 water, 1 food, and 1 firewood for you, and the rest for me? That way we both have enough for safety and comfort.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 12,
+      "turn_id": "dialogue_00126_turn_12",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "That sounds fair, but I need at least 3 water packages for my child’s safety. If you can take 1 water, I’ll give you 2 firewood in exchange.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 13,
+      "turn_id": "dialogue_00126_turn_13",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm happy to adjust. If you take 2 water and 1 firewood, I'll give you 1 food. That way, we both meet our needs and keep the rest for shared use.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 14,
+      "turn_id": "dialogue_00126_turn_14",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I’ll take 3 water, 1 firewood, and 1 food. That meets my child’s safety needs and balances the trade. Let’s confirm this split.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 15,
+      "turn_id": "dialogue_00126_turn_15",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I agree to this split. You get 3 water, 1 food, and 1 firewood, and I’ll take the remaining 2 water, 2 food, and 2 firewood. Let’s confirm and then wrap up.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 16,
+      "turn_id": "dialogue_00126_turn_16",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    }
+  ]
+}

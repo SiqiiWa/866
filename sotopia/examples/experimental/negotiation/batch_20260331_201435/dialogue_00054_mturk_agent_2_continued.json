@@ -1,0 +1,242 @@
+{
+  "dialogue_index": 54,
+  "dialogue_name": "dialogue_00054",
+  "perspective": "mturk_agent_2",
+  "selected_important_turn": {
+    "turn_index": 2,
+    "text": "I am hoping that I can get a little extra food though....I'm taking these new meds and they seem to make me hungry all the time. I was hoping to get another 2 pieces of food from the supplies.",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "neutral",
+        "action_type": "non-strategic"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This is the first substantive claim for extra resources and sets the negotiating frame. It moves the interaction from neutral small talk into a zero-sum claim for more food, which shapes how the other party responds and how subsequent tradeoffs are framed.",
+    "why_improvable_or_worth_amplifying": "As delivered it is a one-sided request that emphasizes need but offers no trade, concession, or attempt to learn the other's priorities. That increases zero-sum pressure and misses an early chance to open an integrative exchange (e.g., offer something in return or ask about the other's needs). It therefore risks creating a competitive dynamic unnecessarily.",
+    "better_direction": "Keep the personal need explanation, but pair it immediately with an integrative move: either propose a concrete trade (what you’d give in return) or ask the other person about their priorities/constraints and signal flexibility. For example, say you really need extra food but you’re willing to give up some firewood or water, or ask what trade would work for them.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "increase — adding a proposed trade or asking about the other's needs could reveal compatible priorities and create mutually beneficial exchanges.",
+      "fairness": "increase — showing willingness to concede elsewhere and inviting the other's input makes outcomes feel more balanced.",
+      "ease_of_agreement": "increase — offering a trade or asking for preferences reduces friction and speeds agreement.",
+      "relationship": "increase — combining need with reciprocity and curiosity about the other’s situation builds trust and reduces perceived greed."
+    }
+  },
+  "annotation_turn_index": 2,
+  "matched_text_turn_index": 3,
+  "preserved_through_turn_index": 3,
+  "prefix_turn_count": 3,
+  "continued_from_turn_index": 4,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "it is require to cooking food",
+        "Medium": "it is medium required to life ",
+        "High": "it is most required to health"
+      },
+      "outcomes": {
+        "points_scored": 17,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 35,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 4.5,
+          "agreeableness": 4.5,
+          "conscientiousness": 4.5,
+          "emotional-stability": 5.5,
+          "openness-to-experiences": 5.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Firewood",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "My meds make me very thirsty.",
+        "Medium": "I am small framed and get cold easily.",
+        "High": "I am taking medicines that make me very hungry all the time."
+      },
+      "outcomes": {
+        "points_scored": 21,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 41,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "high school graduate / ged"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 7.0,
+          "agreeableness": 4.5,
+          "conscientiousness": 7.0,
+          "emotional-stability": 7.0,
+          "openness-to-experiences": 5.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "Hi....Sooooo looking forward to a great realxing camping trip.🙂🙂🙂🙂🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00054_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "hi... yes i like camping trip",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00054_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I am hoping that I can get a little extra food though....I'm taking these new meds and they seem to make me hungry all the time. I was hoping to get another 2 pieces of food from the supplies.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00054_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I really need extra food because my meds make me super hungry, but I'm willing to trade some firewood or water if it helps us both get what we need. What's your priority?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00054_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I prioritize water the most, as it's critical for health. I'm willing to trade 1 water for 1 food or 2 firewood if it balances the deal. What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00054_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00054_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 6,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00006_mturk_agent_2_rollout_00_continued.json",
+  "self_svi_A": 0.6904761904761905,
+  "other_svi_B_to_A": 0.7857142857142857,
+  "utility_A": 14.0,
+  "utility_B": 23.0,
+  "joint_utility": 37.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6904761904761905,
+    "other_svi_B_to_A": 0.7857142857142857,
+    "utility_A": 0.3888888888888889,
+    "joint_utility": 0.5138888888888888
+  },
+  "final_reward": 0.5947420634920635,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00006_turn_08",
+    "dialogue_00006_turn_10",
+    "dialogue_00006_turn_12"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 8,
+      "turn_id": "dialogue_00006_turn_08",
+      "text": "I propose we split the supplies as follows: you take 3 Firewood, 1 Food, and 0 Water, while I take 0 Firewood, 2 Food, and 3 Water. This way, you get your top priority for warmth, and I can provide food for my family. Does this meet your needs, or would you like to adjust anything?",
+      "b1": -1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.38095238095238093,
+      "decomposed_reward": 0.2265684051398337
+    },
+    {
+      "turn_index": 10,
+      "turn_id": "dialogue_00006_turn_10",
+      "text": "Your safety is important, so I'll confirm that 3 firewood packages will keep you warm. I'm happy to help keep the fire going if needed. How about we split the food as 2 for you and 1 for me, and I'll take the 3 water? Does this work for you?",
+      "b1": -1.0,
+      "a": -1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "proself",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": -2.0,
+      "stance_signal_i": 0.25,
+      "raw_i": 0.25,
+      "weight_i": 0.23809523809523808,
+      "decomposed_reward": 0.14160525321239606
+    },
+    {
+      "turn_index": 12,
+      "turn_id": "dialogue_00006_turn_12",
+      "text": "Agreed. Final split: You get 3 Firewood, 2 Food, 0 Water. I take 0 Firewood, 1 Food, 3 Water.",
+      "b1": -1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.38095238095238093,
+      "decomposed_reward": 0.22656840513983373
+    }
+  ]
+}

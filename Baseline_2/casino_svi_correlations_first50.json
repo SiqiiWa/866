@@ -1,0 +1,117 @@
+{
+  "relationship_vs_opponent_likeness": {
+    "n": 100,
+    "pearson": 0.5159904412768819,
+    "spearman": 0.28950917772813073
+  },
+  "instrumental_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.32885732010138796,
+    "spearman": 0.3062807270892889
+  },
+  "self_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.29034765108896493,
+    "spearman": 0.21933600858458852
+  },
+  "process_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.4257020620652896,
+    "spearman": 0.237260272521554
+  },
+  "satisfaction_proxy_3way_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.3921594687585566,
+    "spearman": 0.28596955667348267
+  },
+  "overall_item_mean_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.4272649487162386,
+    "spearman": 0.26522473956224746
+  },
+  "overall_dim_mean_vs_satisfaction": {
+    "n": 100,
+    "pearson": 0.40732561055457095,
+    "spearman": 0.2544675670081754
+  },
+  "utility_norm_vs_instrumental": {
+    "n": 100,
+    "pearson": 0.3009305226803733,
+    "spearman": 0.21844648368819145
+  },
+  "utility_norm_vs_self": {
+    "n": 100,
+    "pearson": 0.2279230820200538,
+    "spearman": 0.22607140591166583
+  },
+  "utility_norm_vs_process": {
+    "n": 100,
+    "pearson": 0.2774959527698862,
+    "spearman": 0.1307652940911485
+  },
+  "utility_norm_vs_relationship": {
+    "n": 100,
+    "pearson": 0.22539006265667821,
+    "spearman": 0.11356358071488541
+  },
+  "utility_norm_vs_overall_item_mean": {
+    "n": 100,
+    "pearson": 0.298080951551374,
+    "spearman": 0.17128325246801468
+  },
+  "utility_norm_vs_overall_dim_mean": {
+    "n": 100,
+    "pearson": 0.27893092001912795,
+    "spearman": 0.15263786696334897
+  },
+  "joint_utility_vs_instrumental": {
+    "n": 100,
+    "pearson": 0.45386706331532206,
+    "spearman": 0.41337183164890773
+  },
+  "joint_utility_vs_self": {
+    "n": 100,
+    "pearson": 0.3290835231439116,
+    "spearman": 0.38721438490311216
+  },
+  "joint_utility_vs_process": {
+    "n": 100,
+    "pearson": 0.3764183568440227,
+    "spearman": 0.2783974251849001
+  },
+  "joint_utility_vs_relationship": {
+    "n": 100,
+    "pearson": 0.3050922495062835,
+    "spearman": 0.22212328754142815
+  },
+  "joint_utility_vs_overall_item_mean": {
+    "n": 100,
+    "pearson": 0.4342093077360915,
+    "spearman": 0.3630001035166812
+  },
+  "joint_utility_vs_overall_dim_mean": {
+    "n": 100,
+    "pearson": 0.43117179470154077,
+    "spearman": 0.35086142098726275
+  },
+  "utility_norm_vs_dataset_satisfaction": {
+    "n": 100,
+    "pearson": 0.3765516272134703,
+    "spearman": 0.24809258389202454
+  },
+  "utility_norm_vs_dataset_opponent_likeness": {
+    "n": 100,
+    "pearson": 0.16738386748028458,
+    "spearman": 0.033341680311763475
+  },
+  "joint_utility_vs_dataset_satisfaction": {
+    "n": 100,
+    "pearson": 0.3511121809763049,
+    "spearman": 0.17108339380087223
+  },
+  "joint_utility_vs_dataset_opponent_likeness": {
+    "n": 100,
+    "pearson": 0.20323778221819683,
+    "spearman": 0.0013996705829777303
+  }
+}

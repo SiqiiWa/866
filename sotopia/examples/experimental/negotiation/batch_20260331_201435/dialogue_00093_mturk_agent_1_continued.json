@@ -1,0 +1,353 @@
+{
+  "dialogue_index": 93,
+  "dialogue_name": "dialogue_00093",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 5,
+    "text": "I need at least one ration of food.  Would it be ok with me:  3 firewood and 1 each of food and water.  If you are ok with that, I am too.",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "offer"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This turn concretely shaped the deal: you proposed and locked in a split that secured all 3 firewood (your top priority) and guaranteed minimal food/water. The opponent accepted shortly after, so this move determined the final allocation and fairness of the outcome.",
+    "why_improvable_or_worth_amplifying": "It converts a cooperative momentum (the opponent had just offered a prosocial split) into a self-favoring final proposal without using the bargaining leverage to improve joint or fairness outcomes. You missed a chance to frame a mutual trade or to offer a small concession that would meaningfully increase perceived fairness or relationship quality.",
+    "better_direction": "Instead of pushing a zero-sum confirmation, explicitly acknowledge the opponent's concession and propose a small compensating trade or reciprocity (e.g., keep the firewood but offer a tiny concession on food/water or promise future reciprocity). Frame the proposal as a trade that compensates their larger water need so it reads as fair and reciprocal.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "small decrease if unchanged; small increase if you reshape into an integrative trade (you can preserve utility while creating perceived value)",
+      "fairness": "would increase if you add a modest concession or reciprocity framing",
+      "ease_of_agreement": "would remain high; slightly smoother if framed cooperatively",
+      "relationship": "would improve (less one-sided, more gratitude/reciprocity)"
+    }
+  },
+  "annotation_turn_index": 5,
+  "matched_text_turn_index": 6,
+  "preserved_through_turn_index": 6,
+  "prefix_turn_count": 6,
+  "continued_from_turn_index": 7,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Food",
+        "Medium": "Water",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "My favorite food is buffet food.  I will miss that so the more food for me the better.",
+        "Medium": "My spouse calls me a water buffalo so that tells you how much water I consume.",
+        "High": "I am from the South so anything below 80 degrees is cold to me.  I need firewood or else I do the opposite of melt."
+      },
+      "outcomes": {
+        "points_scored": 22,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 38,
+        "gender": "male",
+        "ethnicity": "asian american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 1.5,
+          "agreeableness": 6.5,
+          "conscientiousness": 6.5,
+          "emotional-stability": 7.0,
+          "openness-to-experiences": 1.5
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Food",
+        "High": "Water"
+      },
+      "value2reason": {
+        "Low": "It's a hot summer day, and all my food is prepackaged, so I don't need any wood",
+        "Medium": "I'll be very hungry after the hike so I'll need a lot of food",
+        "High": "I'll be going on a hike around the area so I'll be very thirsty on this hot day"
+      },
+      "outcomes": {
+        "points_scored": 18,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Extremely like"
+      },
+      "demographics": {
+        "age": 45,
+        "gender": "female",
+        "ethnicity": "white american",
+        "education": "some 4 year college, bachelor's degree"
+      },
+      "personality": {
+        "svo": "prosocial",
+        "big-five": {
+          "extraversion": 3.0,
+          "agreeableness": 6.0,
+          "conscientiousness": 4.5,
+          "emotional-stability": 3.0,
+          "openness-to-experiences": 4.5
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "I am so excited to go camping!  I am planning a nice long walk in the woods to decompress from the hectic days of working.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00093_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I am too.  I've been thinking of this since COVID.  I hear we have some materials to share between the two of us.  What are you thinking?  For me, I am from the South so I get cold easily 🙂 so firewood is my main priority.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00093_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Perfect!  I'm a northerner, so the firewood is all yours!  I'll need lot's of water to keep hydrated after the hike, and I'll probably be pretty hungry too.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 3,
+      "turn_id": "dialogue_00093_turn_03",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "My spouse calls me a water buffalo so I'm pretty water dependent if you couldn't tell.  ",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 4,
+      "turn_id": "dialogue_00093_turn_04",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "That's good.  Best way to stay healthy is with water.  How about you take 1 water and all the firewood?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 5,
+      "turn_id": "dialogue_00093_turn_05",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I need at least one ration of food.  Would it be ok with me:  3 firewood and 1 each of food and water.  If you are ok with that, I am too.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 6,
+      "turn_id": "dialogue_00093_turn_06",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "Thanks for the offer. I really value your willingness to share water. Since firewood is my top priority, I'd like to keep all 3 firewood packages. In return, I can offer you 1 extra food package to balance the trade. How does that sound?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00093_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate your offer, but I need more water than just one food package. Let’s try this: I’ll take 2 water, 1 food, and give you 1 food and 2 firewood. That way, I get more water and you get some firewood. What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00093_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I understand your need for more water. Since firewood is my top priority, I'm happy to keep all 3 firewood packages. In exchange, I'll offer you 2 food packages instead of 1 to better balance the trade. Does that work for you?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00093_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I see your point about firewood. Since I value water most, I’m willing to accept 2 food packages and 1 firewood in exchange for 2 water. That way, I get more water, and you get some firewood. Let’s make it a deal.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00093_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 11,
+      "turn_id": "dialogue_00093_turn_11",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

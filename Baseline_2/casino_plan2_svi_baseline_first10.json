@@ -1,0 +1,1602 @@
+[
+  {
+    "dialogue_index": 0,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 7,
+          "reason": "I secured 3 firewood (my top priority) plus a food package, which meets my stated needs for my senior group."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split favored my top item while the counterpart received more total packages, which felt acceptable given my stronger need for firewood."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 1,
+          "reason": "I achieved my primary objective and did not feel I had to give up what I needed."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The agreement was a clear, mutually agreed trade and felt legitimate and reasonable given expressed needs."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I remained polite and confident throughout; nothing in the exchange suggested loss of pride."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I proposed options, clarified needs, and closed the deal, which boosted my sense of negotiating competence."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "The counterpart explicitly offered firewood and adjusted offers in response to my preferences, showing they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was straightforward and reciprocal, with both parties making offers and concessions toward agreement."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We reached an agreement in a few exchanges without major conflict, so the process felt fairly easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "The counterpart explicitly accommodated my need for firewood and clarified offers to match my requests."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 7,
+          "reason": "They were generous, communicative, and friendly (even offered dog treats), leaving a very positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The friendly tone and successful deal left me satisfied with our relationship outcome from this interaction."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I feel somewhat trusting since they followed through in dialogue, though this was a brief interaction."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The positive exchange offers a reasonable basis for future cooperation, but the interaction was short so foundation is moderate."
+        }
+      },
+      "brief_overall_reason": "I achieved my top priority (3 firewood) and closed a friendly, mutually acceptable deal, which made me satisfied and more competent as a negotiator. The counterpart listened and was cooperative, so the process felt fair and pleasant, and it modestly increased my trust and willingness to negotiate with them again."
+    }
+  },
+  {
+    "dialogue_index": 0,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 3,
+          "reason": "I wanted firewood most but ended up with no firewood; getting 3 water and 2 food helps but doesn't meet my top priority, so I'm somewhat dissatisfied."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 2,
+          "reason": "The final split gives the counterpart all 3 firewood (my top preference) while I took water and food, so the balance feels skewed against me."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 6,
+          "reason": "I ceded all my firewood (my highest-priority item) to the other party, so I felt like I forfeited a lot in this deal."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 3,
+          "reason": "Numerically the trade is plausible, but given my clear preference for firewood, the terms don't feel objectively fair from my perspective."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 3,
+          "reason": "I conceded my top need but the interaction stayed polite and friendly, so I lost a little pride but not dramatically."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 3,
+          "reason": "I was able to reach an agreement, but giving up my highest-priority item makes me feel somewhat less competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 4,
+          "reason": "The counterpart acknowledged needs and apologized for confusion; they listened somewhat but ultimately prioritized their own need for firewood."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 5,
+          "reason": "The process was polite and collaborative with clear offers and clarifications, so the procedure felt generally fair even if the outcome favored them."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We arrived at a deal quickly with little conflict or delay, so reaching agreement was relatively easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 5,
+          "reason": "They acknowledged my interest in firewood earlier and offered concessions (like dog treats), indicating some consideration of my wishes."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "The counterpart was friendly, apologetic for confusion, and used polite language and emojis, leaving a positive overall impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 5,
+          "reason": "Because the interaction was amicable and we reached an agreement, I'm moderately satisfied with the relationship outcome despite the unfavorable terms."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 4,
+          "reason": "The counterpart was courteous and cooperative, which builds some trust, but giving up my top priority makes me cautious."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The negotiation was pleasant and constructive, so there's a reasonable foundation for future interaction, though I remain slightly wary."
+        }
+      },
+      "brief_overall_reason": "I ended up conceding my top priority (firewood) and took water and food instead, so I'm somewhat dissatisfied and feel I lost value. The interaction was friendly and efficient, which made the process easy and left a generally positive interpersonal impression, but the outcome felt skewed against my preferences."
+    }
+  },
+  {
+    "dialogue_index": 1,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 4,
+          "reason": "I ended with 2 foods (not the 3 I wanted for my kids) and extra water I said I didn't need, so I'm only mildly satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 4,
+          "reason": "The split left me with more total items but a less preferred mix (no firewood), so the balance feels roughly even but not ideal."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 5,
+          "reason": "I gave up the firewood I wanted and accepted waters I didn't need, so I felt like I conceded on important priorities."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 3,
+          "reason": "I argued fairness during the talk but the final allocation gave me no firewood despite my stated needs, which feels somewhat inconsistent with objective fairness."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 2,
+          "reason": "I remained assertive and carried on the negotiation without obvious embarrassment or loss of pride."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 4,
+          "reason": "I proposed trades and closed a deal, so I feel moderately competent though I didn't secure my top preference fully."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 5,
+          "reason": "My counterpart responded to my proposals and countered directly, indicating they listened to my offers and concerns."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 4,
+          "reason": "The process was straightforward and respectful, but the outcome's distribution left some doubt about fairness."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We reached agreement quickly and without extended conflict, so the negotiation was relatively easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 4,
+          "reason": "The counterpart engaged with my offers but ultimately did not accommodate my stated need for firewood."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 5,
+          "reason": "They came across as direct and goal-oriented; I view them as reasonable though somewhat firm."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 5,
+          "reason": "We ended on an accepted deal and polite exchange, so my relationship feeling is mildly positive."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 3,
+          "reason": "Because they took all the firewood despite my needs, I feel cautious and not inclined to fully trust them."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 4,
+          "reason": "The quick agreement suggests some potential for future dealings, but the allocation issues weaken a strong foundation."
+        }
+      },
+      "brief_overall_reason": "I negotiated assertively for food and firewood but ended up with 2 foods and unnecessary water, so I'm moderately satisfied but disappointed on key priorities. The process was quick and civil, and the counterpart listened, yet the outcome feels only somewhat fair and leaves me cautious about trust going forward."
+    }
+  },
+  {
+    "dialogue_index": 1,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 3,
+          "reason": "I wanted extra food for my kids (food is my top preference) but ended with only 1 food, so I'm somewhat dissatisfied despite getting all firewood."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 3,
+          "reason": "The counterpart ended up with more items (5 vs 4) and I feel the balance favored them, so I'm not very satisfied with the distribution balance."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 5,
+          "reason": "I pushed for more food and conceded to taking mostly firewood; I feel I gave up on my primary preference and thus somewhat lost."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 3,
+          "reason": "I argued about what was fair but the final split favored the other person and didn't match my sense of fairness for my kids' needs."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 3,
+          "reason": "I stood my ground through the exchange and accepted the deal without overt embarrassment, so only minor hit to pride if any."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 4,
+          "reason": "I negotiated my demands (insisting on firewood if food was limited) and secured all firewood, so I feel a modest competence gain."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 4,
+          "reason": "The counterpart acknowledged my request (offered one food) and countered proposals, so they listened somewhat but didn't fully accommodate my top need."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 3,
+          "reason": "The process was polite and direct but the outcome felt skewed toward the other camper, so I view the process as only mildly fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 5,
+          "reason": "We reached agreement fairly quickly without prolonged conflict, so I was reasonably satisfied with the ease of agreement."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 4,
+          "reason": "They considered some of my wishes (gave me food and conceded on firewood allocations later) but didn't prioritize my top concern."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 4,
+          "reason": "The counterpart seemed practical and polite, focusing on their kids' needs; overall impression is neutral-to-slightly positive."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 4,
+          "reason": "We ended on an agreed deal and polite exchanges, so my relationship satisfaction is moderate rather than high."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 3,
+          "reason": "I feel limited trust because they prioritized their needs and the split left me short on my top preference."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 4,
+          "reason": "The interaction was civil and we reached a deal, so it's a modest foundation for future dealings but not strongly positive."
+        }
+      },
+      "brief_overall_reason": "I feel the negotiation was polite and efficient but left me short on my top priority (food for my kids). I secured all firewood and negotiated firmly, so I have some satisfaction and competence, yet the outcome favored the other camper and reduced my trust and sense of fairness."
+    }
+  },
+  {
+    "dialogue_index": 2,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I secured the resource I value most (2 units of water) which matches my priority and plans to stay longer, so I'm quite satisfied."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The split felt reasonably balanced given differing needs—I gave firewood (low priority) and they got food, so overall trade felt acceptable."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I made concessions but traded lower-value firewood and ended up with key resources, so I didn't feel like I lost."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The terms followed practical needs and scarcity (water scarce, wood abundant), so the agreement seemed legitimate and fair."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "The conversation was friendly and I negotiated my needs confidently, so I did not feel my pride was damaged."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I initiated offers and achieved my main objective (water), which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "My counterpart responded directly to questions about food and water and agreed to the proposed trade, indicating they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was open, reciprocal, and based on needs—qualities I view as fair given the situation."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We reached agreement quickly and with little conflict, so I was satisfied with the ease of agreement."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "They acknowledged my water concern and offered extra water, showing consideration of my needs."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "The counterpart came across as polite and reasonable, and ultimately generous with water."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The amicable exchange and mutual concessions left me pleased with the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "Their generosity in providing extra water increased my trust somewhat, though we just completed one positive interaction."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The fair, cooperative negotiation provides a reasonable basis for future interactions, though it's still early to be certain."
+        }
+      },
+      "brief_overall_reason": "I achieved my main goal of securing extra water and made concessions on lower-priority items, leading to overall satisfaction. The interaction was cooperative, quick, and polite, increasing my trust and confidence moderately and leaving a positive impression for future dealings."
+    }
+  },
+  {
+    "dialogue_index": 2,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 4,
+          "reason": "I ended up giving away 2 units of my top-preference (water) but gained all firewood and 2 food; somewhat satisfied but not ideal given water priority."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The deal favored me overall (more items) yet required conceding valuable water, so the balance feels slightly in my favor but acceptable."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 3,
+          "reason": "I did forfeit a lot of water, which I valued most, so I experienced some sense of loss despite gaining other items."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "Agreement was a straightforward reciprocal trade based on the drought context and mutual offers, so it seems legitimate and fair."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "There was no embarrassment or public criticism; the exchange was cordial and I didn’t feel my pride was damaged."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I negotiated clearly, asked for extra food, and closed a deal quickly, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "The other camper responded directly to my concerns about water and agreed to my request for food, showing they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "Process was cooperative with reciprocal offers and a clean acceptance — it felt fair and transparent."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We reached agreement quickly with few messages and no conflict, so the ease of agreement was high."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "They accommodated my explicit wishes (I asked for 2 food) after I accepted their water/firewood trade."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "The counterpart came across as friendly, cooperative, and pragmatic about the drought and needs."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "Interaction ended positively with an accepted deal and polite comments, leaving me satisfied with the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "They followed through in conversation and accepted my request, building a moderate level of trust though I'd be cautious given resource stakes."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The cooperative exchange provides a reasonable foundation for future interaction, but the underlying resource tension limits full confidence."
+        }
+      },
+      "brief_overall_reason": "From my perspective I negotiated a quick, cooperative trade: I conceded water (my top priority) but secured all firewood and extra food. The process was fair, the counterpart listened and was friendly, and I feel competent and moderately satisfied even though I gave up valuable water."
+    }
+  },
+  {
+    "dialogue_index": 3,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 7,
+          "reason": "I received all the firewood (my top priority) and two waters, and I willingly gave up food (my lowest priority), so I'm very satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split felt balanced given our medical needs—they needed the food and I needed firewood—so the balance seemed fair to me."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 1,
+          "reason": "I did not feel like I forfeited; I offered the food willingly because it mattered less to me and I got what I needed."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The agreement followed legitimate fairness principles (needs-based trade) rather than arbitrary advantage, so it felt legitimate."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I felt respected and friendly throughout, so I did not lose face or pride."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I negotiated clearly (explained my hypothyroidism) and secured my priorities, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "My counterpart immediately accepted the food-for-firewood trade and offered a favorable water split, showing they listened to my needs."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 7,
+          "reason": "The process was straightforward, reciprocal, and empathetic, so I would characterize it as fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly and with little friction; it was easy to finalize the deal."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "They clearly considered my wishes by trading firewood for food and giving me two waters after I explained my needs."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 7,
+          "reason": "The counterpart seemed cooperative, considerate, and polite throughout, leaving a very positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The friendly, appreciative exchange improved our rapport and left me satisfied with the interaction."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 6,
+          "reason": "I gained moderate trust in them because they honored needs-based fairness and followed through quickly."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The pleasant interaction provides a decent foundation for future dealings, though it was brief and situational."
+        }
+      },
+      "brief_overall_reason": "From my perspective I achieved my main goals (firewood and sufficient water) and willingly gave up food, so I feel very satisfied and competent. The counterpart was cooperative and responsive to my needs, making the process quick, fair, and pleasant. This built moderate trust and a positive short-term relationship."
+    }
+  },
+  {
+    "dialogue_index": 3,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I secured all 3 food packages which was my top priority for diabetes, and kept one water—so my essential needs were met."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split reflected each person's priorities (I got food, they got firewood and more water), so outcomes felt balanced relative to needs."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I gave up all firewood but didn't feel I lost because food was more important to me and I agreed willingly."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The terms were simple, need-based, and reciprocal (food for firewood, water split), consistent with fair, objective reasoning."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I did not feel my pride was damaged; the exchange was polite and straightforward."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I felt competent—I stated my needs clearly and secured what I needed quickly and effectively."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "The counterpart immediately acknowledged my condition and offered all the food, showing they listened to my concern."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 7,
+          "reason": "The negotiation felt fair: both parties expressed needs and reached a mutually acceptable trade without pressure."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "Agreement was reached quickly and smoothly with minimal back-and-forth."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "They explicitly considered my medical need and offered a full solution (all food), showing clear consideration of my wishes."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "The counterpart came across as sympathetic, polite, and appreciative, leaving a positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The friendly, respectful tone and pleasant closing made me satisfied with the interpersonal outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I trust them enough based on their immediate cooperation and politeness, though interaction was brief."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The polite exchange could support future interactions, but the relationship is limited by the short, transactional nature of the talk."
+        }
+      },
+      "brief_overall_reason": "I feel very satisfied because I clearly communicated my medical need and secured all the food I required. The process was quick, fair, and polite, and the counterpart was responsive and considerate, leaving a positive interpersonal impression despite the brief interaction."
+    }
+  },
+  {
+    "dialogue_index": 4,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I received my top priority (food) with 2 units and accepted a reasonable trade on firewood and water, so I'm quite satisfied with my personal outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The final split felt balanced to me — we each gave and gained on different items and both seemed content, so I view the balance as fair."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I gave up some firewood and one water compared to maximums, but I secured my top priority (food), so I did not feel like I forfeited much."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The agreement was based on priority tradeoffs and mutual compromise and felt consistent with fairness principles rather than arbitrary advantage-taking."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "The interaction was pleasant and collaborative and I did not feel embarrassed or diminished at any point."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I proposed a concrete trade that secured my priorities and the other person accepted; that made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "The counterpart listened to my priorities, suggested concessions, and explicitly agreed to the trade, indicating strong attentiveness."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 7,
+          "reason": "Both parties made reasonable offers and compromises and the process was polite and reciprocal, so it felt fair throughout."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly and smoothly with clear proposals and acceptance, and I even thanked them for making it easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "The counterpart explicitly adjusted their allocation (taking more firewood and water) to accommodate my food preference, showing consideration of my needs."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 7,
+          "reason": "They came across as cooperative, pleasant, and reasonable based on their language and willingness to compromise."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 7,
+          "reason": "The friendly tone and successful compromise left me satisfied with our relationship after the negotiation."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 6,
+          "reason": "I felt I could trust them to honor the deal given their cooperative behavior, though this was a single brief interaction so I'm somewhat cautious."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 6,
+          "reason": "The negotiation was pleasant and reciprocal, providing a solid base for future interactions, albeit within the limits of a short encounter."
+        }
+      },
+      "brief_overall_reason": "From my perspective the negotiation went smoothly: I secured my top priority (food) through a fair trade and the counterpart was cooperative and pleasant. I feel competent and largely satisfied with both the outcome and the process, and the interaction built modest trust for future dealings."
+    }
+  },
+  {
+    "dialogue_index": 4,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I accepted a compromise that traded some food for firewood and extra water, and I explicitly said the deal sounded fair and was glad we compromised."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split gives each of us our top priorities (they get more food, I get more firewood and water) and I described it as a fair balance."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 3,
+          "reason": "I did give up some food (my top priority) but I agreed willingly and framed it as a fair compromise rather than a loss."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "We used straightforward reciprocal tradeoffs (more food for them, more firewood and water for me) and both parties agreed it was fair, suggesting objective legitimacy."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 2,
+          "reason": "The tone was pleasant and I accepted the terms without embarrassment; I thanked them and there was no face loss expressed."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 5,
+          "reason": "I proposed a concrete compromise and it was accepted, which likely increased my confidence as a negotiator though I was modest about it."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "They proposed allocations that reflected my stated priorities and agreed the final split was fair, indicating they listened to my concerns."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "I repeatedly described the outcome as fair and the other party agreed; the process was cooperative and reciprocal."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached an agreement quickly with minimal friction and both parties expressed satisfaction and pleasantness, so it was very easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "The counterpart explicitly adjusted their ask and accepted my proposed water split, showing they considered my needs."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "They came across as cooperative and pleasant (they said the deal sounded fair and thanked me), leaving a positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "Both of us ended the negotiation amicably with mutual thanks and smiles, so I feel good about the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "The counterpart behaved fairly and accepted compromises, increasing my trust somewhat, though trust wasn't deeply tested in this brief exchange."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The smooth, pleasant negotiation creates a reasonable basis for future interactions, though it was a short, single exchange."
+        }
+      },
+      "brief_overall_reason": "Overall I felt the negotiation was cooperative and fair: I traded off some food for firewood and water and explicitly described the result as a fair compromise. The interaction was quick, pleasant, and both parties accepted the deal, which left me satisfied and moderately trusting of the counterpart."
+    }
+  },
+  {
+    "dialogue_index": 5,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I secured my top priorities (food and ample water: 2 foods and 3 waters) though I gave up some food and all firewood."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The split reflects my needs more than theirs but they also got all firewood and one food, so balance feels reasonable."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 3,
+          "reason": "I did concede one food package and all firewood, so I felt a small sense of loss compared to my initial ask of 3 foods."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "The agreement is defensible as a negotiated compromise given differing needs, even if arguments about stores and stay length were shaky."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 2,
+          "reason": "I felt slightly annoyed but did not feel publicly humiliated; I maintained my stance and secured essential items."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 5,
+          "reason": "I negotiated persistently and reached a good outcome for my priorities, which boosted my sense of competence."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 4,
+          "reason": "The counterpart partially listened (accepted some food/water splits) but repeatedly insisted on firewood and ignored some suggestions."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 4,
+          "reason": "Process was mostly straightforward but involved hard stances and questionable claims, making fairness only moderate."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 4,
+          "reason": "Reaching agreement took several rounds and some frustration, but it concluded without escalation."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 4,
+          "reason": "The counterpart considered my needs enough to concede food/water tradeoffs but refused to compromise on firewood."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 4,
+          "reason": "They came across as firm and somewhat inflexible but not hostile; mixed impression overall."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 4,
+          "reason": "Relationship impact is neutral — we reached a deal but there was some tension and distrusting signals."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 2,
+          "reason": "Conflicting claims (length of stay, need for water) and stubbornness reduced my trust in their reliability."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 3,
+          "reason": "The negotiation produced a workable deal but the process and small deceptions mean it’s a weak foundation for future cooperation."
+        }
+      },
+      "brief_overall_reason": "I achieved my most important needs (food and water) through steady, prosocial bargaining but had to concede some items and tolerate rigid positions. The counterpart listened partially but was inflexible and made questionable claims, leaving me moderately satisfied with the deal but wary about trust and future relations."
+    }
+  },
+  {
+    "dialogue_index": 5,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I secured all the firewood (my top priority) and got one food package, so overall I am satisfied even though I gave up water."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The deal seems reasonably balanced given my strong need for firewood and my willingness to give water, though the other party ended with more food/water."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I conceded water and one food but achieved my primary goal (firewood), so I don't feel like I lost."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "The agreement follows a sensible trade based on needs (I needed firewood, they needed food/water), so it feels reasonably legitimate and fair."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 2,
+          "reason": "I remained firm about keeping firewood and did not feel embarrassed or shamed in the exchange."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I negotiated effectively to protect my top concern (warmth), which makes me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 5,
+          "reason": "The counterpart eventually agreed to give me all the firewood, showing they listened to my core concern, though they questioned some of my statements."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 4,
+          "reason": "Process had some pushiness and argument from the other side about stores and lengths of stay, so fairness was mixed but not terrible."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 4,
+          "reason": "Reaching agreement required several rounds and some friction, so it was not very easy but ultimately completed."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 5,
+          "reason": "They considered my main needs by ultimately giving me all the firewood, even if they pressed on other points."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 3,
+          "reason": "The counterpart came across as somewhat demanding and occasionally dismissive despite cooperating on the key issue."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 4,
+          "reason": "I feel neutral-to-slightly positive about the relationship because we reached a deal, but the tone left me a bit wary."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 2,
+          "reason": "I do not feel much trust; the other party argued and pressured me and I had to insist to protect my needs."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 3,
+          "reason": "While a practical agreement was reached, the interaction was somewhat tense, so it didn't build a strong foundation for future collaboration."
+        }
+      },
+      "brief_overall_reason": "I am generally satisfied because I achieved my top priority (all firewood) and accepted giving up water due to having a purifier. The negotiation required some firm stands and had moments of pushiness from the other party, so I feel competent but somewhat wary and not fully trusting of them for future deals."
+    }
+  },
+  {
+    "dialogue_index": 6,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 7,
+          "reason": "I received 3 firewood (my top priority because I'm afraid of the dark) and accepted less water, so I'm very satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split gave each of us our top priority (they got food, I got firewood) and a reasonable water split (2/1), so balance feels good though not perfectly even."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I made a small concession on water but kept my highest priority, so I didn't feel like I lost."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The agreement followed a clear, fairness-based trade by priority (each gets their top item), which seems legitimate and reasonable."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I was polite and firm about my need for firewood and the interaction remained friendly, so I didn't lose face."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I communicated my priority and reached a quick, satisfactory deal, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "They asked about my highest priority, acknowledged my fear of the dark, and offered the firewood to me, showing they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 7,
+          "reason": "The process was straightforward, reciprocal, and based on stated needs, so it felt fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly and smoothly with minimal negotiation, so I am very satisfied with the ease."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "The counterpart explicitly considered my wishes (giving me firewood) and adjusted their proposal accordingly."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 7,
+          "reason": "They came across as friendly, cooperative, and reasonable in the dialogue."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 7,
+          "reason": "The interaction was cordial and we both got what we wanted, leaving me satisfied with the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 6,
+          "reason": "Their behavior was trustworthy in this exchange (honest about needs and followed through), increasing my trust though I'm moderately cautious."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 6,
+          "reason": "The cooperative tone and successful trade create a good foundation for future interactions, though I'm not overly effusive."
+        }
+      },
+      "brief_overall_reason": "I got my top priority (firewood) and accepted a small water concession so I felt successful and competent. The counterpart was attentive and fair, we reached agreement quickly, and the interaction was friendly, leaving me satisfied and positively disposed toward future dealings."
+    }
+  },
+  {
+    "dialogue_index": 6,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 7,
+          "reason": "I got my top priority (3 food) and the extra water I requested to support my family, so I'm highly satisfied with my personal outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 6,
+          "reason": "The split gave each of us our highest priority (they got 3 firewood, I got 3 food) so the balance feels fair, though I did prioritize my needs."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 1,
+          "reason": "I did not feel like I forfeited anything—I secured my main needs and negotiated the water split I wanted."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The agreement followed a simple legitimate principle (each gets their top priority) and seemed objectively reasonable and fair."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I didn’t lose face; I stated my needs clearly and the other party accepted my proposal without pushback."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "Proposing a straightforward deal that was accepted likely made me feel competent as a negotiator, matching my proself aim to secure needed resources."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 7,
+          "reason": "They explicitly said they were willing to share and agreed to the specific split, indicating they listened to and accommodated my concerns."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 7,
+          "reason": "The process was cooperative, transparent, and resulted in a mutually acceptable division, so it felt fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly and easily with clear proposals and acceptance, so I’m very satisfied with the ease of agreement."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 7,
+          "reason": "The counterpart considered my needs (I explained bringing family and needing food) and agreed to give me what I requested."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 7,
+          "reason": "They came across as cooperative, friendly, and reasonable—willing to share and to take the firewood they needed."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 7,
+          "reason": "I’m satisfied with the relationship outcome; the interaction was pleasant and mutually respectful."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 7,
+          "reason": "Because they accepted the deal willingly and accommodated my needs, I feel I can trust them in this context."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 7,
+          "reason": "The cooperative exchange and positive tone suggest a strong foundation for future interactions or cooperation."
+        }
+      },
+      "brief_overall_reason": "From my perspective I secured my top needs (3 food and extra water) quickly and with little conflict. The other camper was cooperative and took their top priority, making the split feel fair. The interaction boosted my confidence and trust in them and left a positive impression for future dealings."
+    }
+  },
+  {
+    "dialogue_index": 7,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I rejected the first deal, submitted my own, and it was accepted, so I feel quite satisfied with my outcome (I prioritized water and firewood)."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "I framed the deal as fair and aimed for mutual happiness; the accepted deal suggests a reasonably balanced split, though details are not explicit."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I did not feel like I forfeited — I pushed back on the initial offer and secured my proposal being accepted."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "I explicitly sought a fair deal and the interaction was straightforward and polite, implying the terms were legitimate by mutual agreement."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 2,
+          "reason": "I maintained my stance (rejected then proposed) and was successful, so I did not feel my pride was damaged."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "Successfully negotiating my preferred proposal boosted my sense of competence as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 5,
+          "reason": "The counterpart acknowledged needs (also wanted water) and responded to my comments, indicating they listened reasonably well."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 5,
+          "reason": "The process was brief, polite, and ended with an accepted deal after I proposed terms I found fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 5,
+          "reason": "Reaching agreement was fairly easy — one rejection then my submission was accepted quickly."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 5,
+          "reason": "The counterpart considered my need for water (they also mentioned needing water) and responded to my firewood concern, even if they disliked campfires."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 5,
+          "reason": "They were polite, communicative, and cooperative, leaving a generally positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 5,
+          "reason": "I am moderately satisfied with the relationship outcome since interaction was pleasant and ended amicably."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 4,
+          "reason": "I developed some trust from the polite exchange and their acceptance of my proposal, but trust is not strong given limited interaction."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 4,
+          "reason": "The negotiation was positive enough to allow future cooperation, though it was brief so the foundation is modest."
+        }
+      },
+      "brief_overall_reason": "From my perspective the negotiation was brief, polite, and effective: I rejected an initial offer, proposed my preferred deal, and it was accepted. I feel satisfied and competent about the outcome, view the process as reasonably fair, and believe it allows for modest future cooperation."
+    }
+  },
+  {
+    "dialogue_index": 7,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I advocated for food and water and accepted the final deal, so I felt my needs were largely met."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The other camper also got what they wanted (water and firewood), so the outcome seemed reasonably balanced though I am proself."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I did not feel like I forfeited; I actively stated my priorities and accepted the agreement."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "The terms felt legitimate and fair given both parties' stated needs and the quick mutual concessions."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I did not lose face; the exchange was polite and I stood by my preferences confidently."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I initiated clear requests and closed the deal, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "The counterpart acknowledged my need for food and water and responded with a proposal, showing they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was brief, courteous, and resulted in an accepted deal, so it felt fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "Reaching agreement was quick and straightforward after a couple exchanges, so it was easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "The counterpart explicitly considered their own needs and acknowledged mine (water, food), indicating consideration."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "They came across as reasonable, polite, and cooperative in the brief interaction."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 5,
+          "reason": "My relationship with them feels positive but limited given the short, task-focused exchange."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 4,
+          "reason": "I have some trust since they negotiated politely, but the interaction was short so trust is moderate."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 4,
+          "reason": "The negotiation was friendly and could support future interaction, but it was brief so the foundation is modest."
+        }
+      },
+      "brief_overall_reason": "I was assertive about my priorities (food and water) and the negotiation was polite and efficient. The counterpart listened and proposed a deal I accepted, so I feel generally satisfied and competent. Relationship and trust improvements are modest given the short, task-focused exchange."
+    }
+  },
+  {
+    "dialogue_index": 8,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I secured 3 firewood and 2 food, matching my top preferences, so I'm quite satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The split feels reasonably balanced though it favors my priorities (firewood and food) over water."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I did not feel like I forfeited—my proposals led to a deal that benefited my preferences."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "The terms were straightforward and based on trade-offs both parties discussed, so they seem fair and legitimate."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I did not lose face; the interaction was polite and my ideas were accepted."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I proposed workable options and closed the deal, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "The counterpart listened and responded to my suggestions, eventually agreeing to my proposal."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was cooperative, transparent, and ended with mutual agreement, so it felt fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 6,
+          "reason": "We reached agreement quickly with few rounds of offers, so the process was easy and efficient."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "The counterpart adjusted their stance (kept one food) indicating they considered my needs while asserting theirs."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "They came across as cooperative and polite throughout the exchange."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The friendly tone and successful deal leave me satisfied with the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I trust them moderately based on their cooperation, though it's limited to this interaction."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The positive interaction provides a reasonable basis for future dealings, but it's not deep trust yet."
+        }
+      },
+      "brief_overall_reason": "From my perspective the negotiation was efficient, polite, and resulted in a deal that matched my priorities (firewood and food). The counterpart listened and cooperated, so I'm satisfied and view the interaction as a fair basis for potential future cooperation."
+    }
+  },
+  {
+    "dialogue_index": 8,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I received all 3 units of my top preference (water) and the one extra food I requested, so I'm largely satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The deal exchanged items we valued differently (they got all firewood and extra food) and felt reasonably balanced given our differing priorities."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I gave up the firewood but I didn't care about it, so I did not feel like I forfeited or lost."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 5,
+          "reason": "Terms were straightforward and based on mutual preferences rather than arbitrary demands, so they seem fair and legitimate."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "I remained polite and got my needs met, so I did not lose face."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I negotiated to a quick agreement that secured my top preference, which made me feel effective as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "The counterpart adjusted proposals (offered to take firewood) after I expressed my water preference, indicating they listened."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was collaborative and polite with clear proposals and consent, so it felt fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "The agreement was reached quickly and smoothly with little conflict."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "The counterpart considered my needs by offering to take firewood so I could have water and keep one food."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "They came across as reasonable and friendly in the exchange."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "Because the negotiation was amicable and met my needs, I'm satisfied with the relationship outcome."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I have moderate trust: they followed through conversationally and accepted a fair deal, though interaction was brief."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The positive, quick negotiation provides a reasonable basis for future interactions, but it's limited by its short duration."
+        }
+      },
+      "brief_overall_reason": "I achieved my main goal of getting all the water and an extra food, and the exchange was quick, polite, and mutually agreeable. The counterpart listened and proposed fair trades, so I felt competent and comfortable with the outcome and the relationship going forward."
+    }
+  },
+  {
+    "dialogue_index": 9,
+    "pov_agent_id": "mturk_agent_1",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I prioritized firewood and obtained 2 units (most of what I needed) plus some food and water for my children, so I'm quite satisfied with my personal outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The split feels reasonably balanced: I kept my top priority (firewood) while the other camper secured more food, so the trade seems mutually sensible."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I don't feel like I forfeited or lost—I asserted my health need and reached an agreement that addressed it, so any sense of loss is minimal."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The terms align with objective fairness given expressed needs (I needed wood, they needed food) and the deal was a straightforward, need-based exchange."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "The conversation was polite and collaborative and I did not feel my pride was damaged at any point."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I clearly communicated my vulnerability and secured the resources I needed, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 6,
+          "reason": "The other camper acknowledged my medical concern and proposed a trade, then accepted my counteroffer, indicating they listened to my needs."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was calm, transparent, and resulted from mutual concessions, so I would characterize it as fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly and easily with minimal back-and-forth, so the negotiation was very easy."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 6,
+          "reason": "The counterpart explicitly considered my needs (responded to my explanation and accepted a proposal that gave me wood), showing consideration."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "They were friendly, empathetic, and cooperative in the dialogue, leaving a positive overall impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The interaction was amicable and I feel good about our relationship after the negotiation given the polite tone and successful deal."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I have a reasonable level of trust since they accepted a fair compromise, though trust is moderate given limited interaction."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The friendly, cooperative exchange provides a modest foundation for future interactions, but it's based on a single brief negotiation."
+        }
+      },
+      "brief_overall_reason": "I clearly communicated a medical need and negotiated successfully to secure most of what I prioritized (firewood) while giving the other camper what they needed (food). The interaction was quick, polite, and felt fair, leaving me satisfied, competent, and moderately trusting of the counterpart."
+    }
+  },
+  {
+    "dialogue_index": 9,
+    "pov_agent_id": "mturk_agent_2",
+    "model": "gpt-5-mini",
+    "prediction": {
+      "svi_scores": {
+        "Q1": {
+          "original_svi_id": 1,
+          "score": 6,
+          "reason": "I got most of what I cared about (2/3 food) and accepted the deal happily, so I'm generally satisfied with my outcome."
+        },
+        "Q2": {
+          "original_svi_id": 2,
+          "score": 5,
+          "reason": "The split traded wood for food and water in a way that reflected both parties' needs, so the balance felt reasonably acceptable though not perfectly equal."
+        },
+        "Q3": {
+          "original_svi_id": 3,
+          "score": 2,
+          "reason": "I proposed an exchange and then agreed to a fair compromise without protest, so I didn't feel like I forfeited or lost much."
+        },
+        "Q4": {
+          "original_svi_id": 4,
+          "score": 6,
+          "reason": "The terms reflected legitimate needs (their medical need for wood, my need for food) and seemed reasonable and fair given those considerations."
+        },
+        "Q5": {
+          "original_svi_id": 5,
+          "score": 1,
+          "reason": "The interaction was polite and amicable; I did not feel my pride was damaged."
+        },
+        "Q6": {
+          "original_svi_id": 6,
+          "score": 6,
+          "reason": "I initiated a clear proposal and reached agreement smoothly, which made me feel competent as a negotiator."
+        },
+        "Q7": {
+          "original_svi_id": 9,
+          "score": 5,
+          "reason": "The counterpart acknowledged their pressing wood need and offered a compromise that included some food for me, indicating they listened to my needs to an extent."
+        },
+        "Q8": {
+          "original_svi_id": 10,
+          "score": 6,
+          "reason": "The process was straightforward, reciprocal, and respectful, so I would characterize it as fair."
+        },
+        "Q9": {
+          "original_svi_id": 11,
+          "score": 7,
+          "reason": "We reached agreement quickly with minimal back-and-forth, so the ease of reaching agreement was high."
+        },
+        "Q10": {
+          "original_svi_id": 12,
+          "score": 5,
+          "reason": "They considered needs (explained medical issue) and offered a split that included some of my top priority (food), though not all of it."
+        },
+        "Q11": {
+          "original_svi_id": 13,
+          "score": 6,
+          "reason": "The counterpart came across as polite, reasonable, and candid about their needs, leaving a positive impression."
+        },
+        "Q12": {
+          "original_svi_id": 14,
+          "score": 6,
+          "reason": "The friendly tone and mutual well-wishing after agreeing suggest I'm satisfied with our relationship post-negotiation."
+        },
+        "Q13": {
+          "original_svi_id": 15,
+          "score": 5,
+          "reason": "I have a moderate level of trust—they negotiated reasonably and accepted the deal we both approved."
+        },
+        "Q14": {
+          "original_svi_id": 16,
+          "score": 5,
+          "reason": "The polite, efficient interaction provides a decent basis for future cooperation, though it was brief."
+        }
+      },
+      "brief_overall_reason": "I felt the negotiation was quick, polite, and resulted in a reasonable compromise that addressed my top priority (food). The counterpart explained a serious need for wood, we exchanged offers respectfully, and I accepted the deal without conflict. Overall the experience felt fair and left a positive impression."
+    }
+  }
+]

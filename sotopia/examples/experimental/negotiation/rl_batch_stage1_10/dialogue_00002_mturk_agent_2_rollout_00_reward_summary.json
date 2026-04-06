@@ -1,0 +1,67 @@
+{
+  "dialogue_index": 2,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_stage1_10/dialogue_00002_mturk_agent_2_rollout_00_continued.json",
+  "self_svi_A": 0.2738095238095238,
+  "other_svi_B_to_A": 0.5833333333333333,
+  "utility_A": 0.0,
+  "utility_B": 0.0,
+  "joint_utility": 0.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.2738095238095238,
+    "other_svi_B_to_A": 0.5833333333333333,
+    "utility_A": 0.0,
+    "joint_utility": 0.0
+  },
+  "final_reward": 0.21428571428571425,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 6,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00002_turn_04",
+    "dialogue_00002_turn_06"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 4,
+      "turn_id": "dialogue_00002_turn_04",
+      "text": "I really need water, it's crucial for staying hydrated. What's your priority? Maybe we can find a fair split if we talk about what you need too.",
+      "b1": 0.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "neutral",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 3.0,
+      "stance_signal_i": 0.875,
+      "raw_i": 0.875,
+      "weight_i": 0.5384615384615384,
+      "decomposed_reward": 0.11538461538461536
+    },
+    {
+      "turn_index": 6,
+      "turn_id": "dialogue_00002_turn_06",
+      "text": "I understand the importance of water. Since I value it most, I'm open to trading some firewood or food for water. What's your stance on splitting the water packages? Let's find a fair deal.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.46153846153846156,
+      "decomposed_reward": 0.09890109890109888
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "output_dir": "examples/experimental/negotiation/rl_batch_stage1_10",
+  "adapter_dir": "examples/experimental/negotiation/rl_batch_stage1_10/adapter",
+  "num_dialogues": 10,
+  "num_episode_summaries": 40,
+  "num_updates": 21,
+  "metrics_log": "examples/experimental/negotiation/rl_batch_stage1_10/training_metrics.jsonl",
+  "episode_log": "examples/experimental/negotiation/rl_batch_stage1_10/episode_summaries.jsonl",
+  "elapsed_seconds": 4295.805580792017,
+  "avg_seconds_per_dialogue": 429.58055807920175
+}

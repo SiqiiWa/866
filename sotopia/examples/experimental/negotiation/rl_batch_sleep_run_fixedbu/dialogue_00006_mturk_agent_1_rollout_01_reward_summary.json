@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 6,
+  "current_A_id": "mturk_agent_1",
+  "current_B_id": "mturk_agent_2",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00006_mturk_agent_1_rollout_01_continued.json",
+  "self_svi_A": 0.6785714285714286,
+  "other_svi_B_to_A": 0.6666666666666667,
+  "utility_A": 17.0,
+  "utility_B": 20.0,
+  "joint_utility": 37.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6785714285714286,
+    "other_svi_B_to_A": 0.6666666666666667,
+    "utility_A": 0.4722222222222222,
+    "joint_utility": 0.5138888888888888
+  },
+  "final_reward": 0.5828373015873016,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00006_turn_07",
+    "dialogue_00006_turn_09",
+    "dialogue_00006_turn_11"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 7,
+      "turn_id": "dialogue_00006_turn_07",
+      "text": "I understand your need for food, but I'm really concerned about the fire. I'm afraid of the dark and need enough firewood to keep it going. What if we split the firewood 2-1 and you take the extra food? That way, we both feel secure.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.35416666666666663,
+      "decomposed_reward": 0.2064215443121693
+    },
+    {
+      "turn_index": 9,
+      "turn_id": "dialogue_00006_turn_09",
+      "text": "I get that you need more food for your family, but firewood is a priority for me. How about I take 2 firewood and 1 food, and you take 1 firewood and 2 food? That way, we both have what we need without leaving anything out.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.35416666666666663,
+      "decomposed_reward": 0.2064215443121693
+    },
+    {
+      "turn_index": 11,
+      "turn_id": "dialogue_00006_turn_11",
+      "text": "I agree to the split. Let's finalize the deal.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 0.0,
+      "stance_signal_i": 0.5,
+      "raw_i": 0.5,
+      "weight_i": 0.29166666666666663,
+      "decomposed_reward": 0.16999421296296302
+    }
+  ]
+}

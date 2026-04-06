@@ -1,0 +1,100 @@
+{
+  "tag": "qwen_no_rl_batch_20260402_202424",
+  "utility_summary_path": "/home/swang4/866/sotopia/examples/experimental/negotiation/batch_20260402_202424/utility_eval_summary.json",
+  "svi_summary_path": "/home/swang4/866/sotopia/examples/experimental/negotiation/batch_20260402_202424/svi_eval_summary.json",
+  "utility": {
+    "num_files": 100,
+    "num_deals_detected": 68,
+    "num_valid_allocations": 54,
+    "num_failed_extractions": 0,
+    "deal_rate": 0.68,
+    "valid_allocation_rate": 0.54,
+    "mean_social_welfare": 36.6852,
+    "mean_min_utility": 15.5741,
+    "mean_utility_gap": 5.537,
+    "mean_nash_product": 325.9444,
+    "utility_by_agent": {
+      "mturk_agent_1": {
+        "mean_total_utility": 18.9444,
+        "mean_issue_utility": {
+          "Firewood": 5.9815,
+          "Food": 6.3333,
+          "Water": 6.6296
+        },
+        "num_valid_records": 54
+      },
+      "mturk_agent_2": {
+        "mean_total_utility": 17.7407,
+        "mean_issue_utility": {
+          "Firewood": 5.7963,
+          "Food": 6.1667,
+          "Water": 5.7778
+        },
+        "num_valid_records": 54
+      }
+    }
+  },
+  "svi": {
+    "num_rows": 200,
+    "num_successful_rows": 200,
+    "num_failed_rows": 0,
+    "success_rate": 1.0,
+    "mean_overall_svi": 4.5843,
+    "question_means": {
+      "Q1": 5.055,
+      "Q10": 5.195,
+      "Q11": 5.245,
+      "Q12": 5.015,
+      "Q13": 4.285,
+      "Q14": 4.395,
+      "Q2": 4.475,
+      "Q3": 2.745,
+      "Q4": 5.05,
+      "Q5": 1.77,
+      "Q6": 5.355,
+      "Q7": 5.215,
+      "Q8": 5.155,
+      "Q9": 5.225
+    },
+    "by_pov_agent": {
+      "mturk_agent_1": {
+        "mean_overall_svi": 4.595,
+        "question_means": {
+          "Q1": 5.07,
+          "Q10": 5.25,
+          "Q11": 5.2,
+          "Q12": 5.02,
+          "Q13": 4.27,
+          "Q14": 4.36,
+          "Q2": 4.49,
+          "Q3": 2.76,
+          "Q4": 5.04,
+          "Q5": 1.81,
+          "Q6": 5.4,
+          "Q7": 5.25,
+          "Q8": 5.19,
+          "Q9": 5.22
+        }
+      },
+      "mturk_agent_2": {
+        "mean_overall_svi": 4.5736,
+        "question_means": {
+          "Q1": 5.04,
+          "Q10": 5.14,
+          "Q11": 5.29,
+          "Q12": 5.01,
+          "Q13": 4.3,
+          "Q14": 4.43,
+          "Q2": 4.46,
+          "Q3": 2.73,
+          "Q4": 5.06,
+          "Q5": 1.73,
+          "Q6": 5.31,
+          "Q7": 5.18,
+          "Q8": 5.12,
+          "Q9": 5.23
+        }
+      }
+    }
+  }
+}

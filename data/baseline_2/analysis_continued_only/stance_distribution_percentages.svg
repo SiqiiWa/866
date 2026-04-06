@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="32" text-anchor="middle" font-size="24" font-family="Arial">Normalized Stance Distribution</text>
+<line x1="90" y1="430" x2="860" y2="430" stroke="black"/>
+<line x1="90" y1="60" x2="90" y2="430" stroke="black"/>
+<line x1="85" y1="430.0" x2="860" y2="430.0" stroke="#dddddd"/>
+<text x="80" y="434.0" text-anchor="end" font-size="12" font-family="Arial">0.0</text>
+<line x1="85" y1="356.0" x2="860" y2="356.0" stroke="#dddddd"/>
+<text x="80" y="360.0" text-anchor="end" font-size="12" font-family="Arial">11.3</text>
+<line x1="85" y1="282.0" x2="860" y2="282.0" stroke="#dddddd"/>
+<text x="80" y="286.0" text-anchor="end" font-size="12" font-family="Arial">22.5</text>
+<line x1="85" y1="208.0" x2="860" y2="208.0" stroke="#dddddd"/>
+<text x="80" y="212.0" text-anchor="end" font-size="12" font-family="Arial">33.8</text>
+<line x1="85" y1="134.0" x2="860" y2="134.0" stroke="#dddddd"/>
+<text x="80" y="138.0" text-anchor="end" font-size="12" font-family="Arial">45.0</text>
+<line x1="85" y1="60.0" x2="860" y2="60.0" stroke="#dddddd"/>
+<text x="80" y="64.0" text-anchor="end" font-size="12" font-family="Arial">56.3</text>
+<text x="90.0" y="484" text-anchor="middle" font-size="14" font-family="Arial">neutral</text>
+<text x="475.0" y="484" text-anchor="middle" font-size="14" font-family="Arial">proself</text>
+<text x="860.0" y="484" text-anchor="middle" font-size="14" font-family="Arial">prosocial</text>
+<polyline fill="none" stroke="#457b9d" stroke-width="3" points="90.0,374.9 475.0,164.7 860.0,92.7"/>
+<polyline fill="none" stroke="#e76f51" stroke-width="3" points="90.0,399.8 475.0,172.6 860.0,60.0"/>
+<circle cx="90.0" cy="374.9" r="4" fill="#457b9d"/>
+<text x="90.0" y="364.9" text-anchor="middle" font-size="12" font-family="Arial">8.38</text>
+<circle cx="475.0" cy="164.7" r="4" fill="#457b9d"/>
+<text x="475.0" y="154.7" text-anchor="middle" font-size="12" font-family="Arial">40.34</text>
+<circle cx="860.0" cy="92.7" r="4" fill="#457b9d"/>
+<text x="860.0" y="82.7" text-anchor="middle" font-size="12" font-family="Arial">51.28</text>
+<circle cx="90.0" cy="399.8" r="4" fill="#e76f51"/>
+<text x="90.0" y="389.8" text-anchor="middle" font-size="12" font-family="Arial">4.60</text>
+<circle cx="475.0" cy="172.6" r="4" fill="#e76f51"/>
+<text x="475.0" y="162.6" text-anchor="middle" font-size="12" font-family="Arial">39.14</text>
+<circle cx="860.0" cy="60.0" r="4" fill="#e76f51"/>
+<text x="860.0" y="50.0" text-anchor="middle" font-size="12" font-family="Arial">56.26</text>
+<rect x="680" y="52" width="16" height="16" fill="#457b9d"/>
+<text x="704" y="65" font-size="13" font-family="Arial">baseline</text>
+<rect x="780" y="52" width="16" height="16" fill="#e76f51"/>
+<text x="804" y="65" font-size="13" font-family="Arial">rl</text>
+</svg>

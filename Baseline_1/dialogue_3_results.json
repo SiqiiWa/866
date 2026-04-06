@@ -1,0 +1,214 @@
+{
+  "dialogue_name": "dialogue_3",
+  "annotations": [
+    {
+      "turn_index": 0,
+      "speaker": "YOU",
+      "text": "Hello, how are you doing today?",
+      "opponent_preference_inference": {
+        "reasoning": "No preferences were stated or hinted at in the dialogue so far. Cannot determine a higher/lower priority without new evidence.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "neutral",
+      "action_type": "non-strategic",
+      "reasoning": "The last utterance is a simple greeting with no stated preferences or strategic content. It does not reveal any self-interested or cooperative intent, so it does not indicate a shift toward proself or prosocial; it is effectively neutral in stance. The action type is non-strategic since it does not seek information, offer a concession, or attempt to influence the negotiation.\n\nStance judgment is neutral because there is no evidence of prioritizing own gain or joint benefit in the utterance. Action type is non-strategic, which supports a neutral stance strength.",
+      "xml_output": "<reason>The last utterance is a simple greeting with no stated preferences or strategic content. It does not reveal any self-interested or cooperative intent, so it does not indicate a shift toward proself or prosocial; it is effectively neutral in stance. The action type is non-strategic since it does not seek information, offer a concession, or attempt to influence the negotiation.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 1,
+      "speaker": "THEM",
+      "text": "Good. How you doing buddy? 🙂",
+      "opponent_preference_inference": {
+        "reasoning": "No preferences are stated or hinted at in the dialogue so far. There is no new evidence to update the ranking.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "neutral",
+      "action_type": "non-strategic",
+      "reasoning": "The last utterance is a friendly greeting with no strategic content, thus it does not reveal competitive or cooperative intent. It neither reveals a preference nor proposes a trade, so the stance is neutral. The action type is non-strategic since it doesn't influence the negotiation or convey information or offers.",
+      "xml_output": "<reason>The last utterance is a friendly greeting with no strategic content, thus it does not reveal competitive or cooperative intent. It neither reveals a preference nor proposes a trade, so the stance is neutral. The action type is non-strategic since it doesn't influence the negotiation or convey information or offers.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 2,
+      "speaker": "YOU",
+      "text": "I'm doing pretty good. I plan on camping with the family this weekend, how about you?",
+      "opponent_preference_inference": {
+        "reasoning": "No preferences are stated or hinted at in the dialogue so far. No new evidence to update the ranking.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "neutral",
+      "action_type": "info",
+      "reasoning": "The last utterance is You asking about weekend camping plans, which is a neutral, information-seeking question with no explicit preference expression. It does not reveal or imply a competitive or cooperative stance beyond casual small talk, so the stance is neutral and the action type is information seeking (info). The action is non-strategic in the sense of not pursuing a negotiation leverage at this moment.",
+      "xml_output": "<reason>The last utterance is a neutral, information-seeking question with no explicit preference expression.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 3,
+      "speaker": "THEM",
+      "text": "Nice. Same, it's over 100 degrees where I live. 🙂",
+      "opponent_preference_inference": {
+        "reasoning": "No new information about the opponent's preferences has emerged from the dialogue. No items (food, water, firewood) are mentioned or prioritized in the exchange, so there is no basis to update the ranking.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "neutral",
+      "action_type": "non-strategic",
+      "reasoning": "The last utterance from THEM is a friendly, non-confrontational acknowledgment about shared heat conditions, with no mention of needs or negotiation moves. It does not reveal a stance that seeks advantage or cooperation beyond cordial small talk, so it is neither proself nor overtly prosocial.",
+      "xml_output": "<reason>The last utterance is friendly and non-strategic, not revealing preferences or attempting to influence the other party, hence neutral.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 4,
+      "speaker": "YOU",
+      "text": "Yikes! It's a bit colder up here, that's why I would like to bring some extra firewood to stay warm at night.",
+      "opponent_preference_inference": {
+        "reasoning": "No new information about the opponent's preferences has emerged from the dialogue. The conversation only mentions bringing extra firewood for warmth, which does not establish a ranking among food, water, and firewood. Therefore, we retain the previous inferred order.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "none"
+      },
+      "stance": "proself",
+      "action_type": "info",
+      "reasoning": "The speaker is asserting a personal need to bring extra firewood to stay warm, which prioritizes their own comfort and safety rather than facilitating mutual gain. This frames the negotiation with a self-benefiting motive and could limit the other party's options, making the stance more zero-sum. The utterance does not express cooperation, shared benefit, or a request that fosters joint problem-solving, so it reads as proself.",
+      "xml_output": "<reason>The speaker is asserting a personal need to bring extra firewood to stay warm, which prioritizes their own comfort and safety rather than facilitating mutual gain. This frames the negotiation with a self-benefiting motive and could limit the other party's options, making the stance more zero-sum. The utterance does not express cooperation, shared benefit, or a request that fosters joint problem-solving, so it reads as proself.</reason><answer>proself</answer>"
+    },
+    {
+      "turn_index": 5,
+      "speaker": "THEM",
+      "text": "Oh, I see what you did there. No problem I have plenty of firewood for you buddy. 🙂",
+      "opponent_preference_inference": {
+        "reasoning": "No new information about the opponent's preferences has emerged from the dialogue. The exchange only mentions bringing extra firewood, which does not establish a ranking among food, water, and firewood. Therefore, we retain the previous inferred order.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "implicit"
+      },
+      "stance": "prosocial",
+      "action_type": "offer",
+      "reasoning": "The opponent now offers to provide firewood, which directly supports the group’s safety and comfort with minimal cost to others. This increases integrative potential and cooperative behavior, making the interaction more collaborative rather than zero-sum. The offer suggests willingness to share resources, aligning with prosocial negotiation dynamics.",
+      "xml_output": "<reason>The opponent offers to provide firewood, increasing collaboration and shared benefit.</reason><answer>PROSOCIAL</answer>"
+    },
+    {
+      "turn_index": 6,
+      "speaker": "YOU",
+      "text": "Great! What extra supplies would you like to bring?",
+      "opponent_preference_inference": {
+        "reasoning": "No new information about the opponent's preferences has emerged from the dialogue. The exchange mentions firewood but does not reveal a ranking among food, water, and firewood, so the previously inferred order remains the best guess.",
+        "preference_order": [
+          "food",
+          "water",
+          "firewood"
+        ],
+        "confidence": "low",
+        "evidence_type": "implicit"
+      },
+      "stance": "prosocial",
+      "action_type": "info",
+      "reasoning": "The last utterance asks the other party what extra supplies they'd like to bring, signaling collaborative planning and a willingness to coordinate resources. This is integrative and cooperative, aiming to maximize joint utility rather than beat the other person on individual gain.",
+      "xml_output": "<reason>The last utterance asks for input to coordinate supplies, indicating cooperative intent.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 7,
+      "speaker": "THEM",
+      "text": "Since it's hot there, I get thirsty and dry real quick. 😡",
+      "opponent_preference_inference": {
+        "reasoning": "The opponent stressed thirst and dryness, making water a higher priority. They also said they have plenty of firewood, which reduces its urgency for firewood. There is no information about food, so its priority remains uncertain. Updated ranking: water > firewood > food.",
+        "preference_order": [
+          "water",
+          "firewood",
+          "food"
+        ],
+        "confidence": "medium",
+        "evidence_type": "explicit"
+      },
+      "stance": "neutral",
+      "action_type": "info",
+      "reasoning": "The last utterance conveys a personal need (thirst due to heat) and does not propose a concrete offer, pricing, or concession. It functions as information sharing about priority (water) rather than a move to shift the negotiation into a more cooperative or competitive stance. Although it hints at discomfort which could motivate water access, the content itself is neutral information rather than a pressure tactic or collaborative proposal.",
+      "xml_output": "<reason>The last utterance conveys a personal need (thirst due to heat) and does not propose a concrete offer or demand.</reason><answer>neutral</answer>"
+    },
+    {
+      "turn_index": 8,
+      "speaker": "YOU",
+      "text": "Oh ok, well I plan on bringing some juice, beer and other drinks. So I could spare some extra water. And I am pretty good at fishing, so I won't need much food either",
+      "opponent_preference_inference": {
+        "reasoning": "New dialogue confirms water is the most critical need (thirst/dry), firewood is readily available (not urgent), and food is not needed much (fishing, no heavy food requirement). This supports the prior inference that water > firewood > food, unchanged by concessions.",
+        "preference_order": [
+          "water",
+          "firewood",
+          "food"
+        ],
+        "confidence": "high",
+        "evidence_type": "implicit"
+      },
+      "stance": "prosocial",
+      "action_type": "info",
+      "reasoning": "The speaker is offering to spare water and indicating they won’t need much food, which reduces the opponent’s burden and supports a cooperative, integrative approach. This moves the interaction away from zero-sum competition, given the opponent’s expressed water emphasis and the need to collaborate on supplies. The action_type is informational, as the speaker is sharing planned resource allocations rather than pressing for a concession or attempting to alter the other’s behavior directly.",
+      "xml_output": "<reason>The speaker is sharing concessions (will spare water, won't need much food) to facilitate joint provisioning, showing cooperative intent. Since the opponent's need is water, this helps integratively. The action_type is information because it's stating planned resource allocations. This makes the stance prosocial, as it reduces the potential zero-sum tension.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 9,
+      "speaker": "THEM",
+      "text": "How nice of you. I certain we can work something out. 🙂",
+      "opponent_preference_inference": {
+        "reasoning": "Dialogue confirms water is the critical need (thirst/dry) and food is not needed much (plan to fish; won't require much food). Firewood is not urgent (they have plenty). This aligns with water > firewood > food and does not contradict prior inference.",
+        "preference_order": [
+          "water",
+          "firewood",
+          "food"
+        ],
+        "confidence": "high",
+        "evidence_type": "implicit"
+      },
+      "stance": "prosocial",
+      "action_type": "influence",
+      "reasoning": "The last utterance from THEM expresses appreciation and asserts a willingness to collaborate, indicating a cooperative, integrative stance rather than competition. This shifts the negotiation toward mutual problem-solving rather than trying to outmaneuver the other party.",
+      "xml_output": "<reason>THEM expresses willingness to work something out and uses positive framing, signaling cooperative intent.</reason><answer>prosocial</answer>"
+    },
+    {
+      "turn_index": 10,
+      "speaker": "YOU",
+      "text": "How about I get 3 firewood 0 water 2 food, and you get 0 firewood 3 water 1 food?",
+      "opponent_preference_inference": {
+        "reasoning": "Dialogue indicates water is the most urgent need (thirst/dry). They have plenty of firewood and plan to fish, suggesting food is not highly needed. Previous inference stated water > firewood > food, and no new evidence contradicts that; thus we keep the same ranking.",
+        "preference_order": [
+          "water",
+          "firewood",
+          "food"
+        ],
+        "confidence": "high",
+        "evidence_type": "implicit"
+      },
+      "stance": "proself",
+      "action_type": "offer",
+      "reasoning": "The last utterance proposes a specific split of resources that heavily favors the speaker (more firewood and food for the speaker, water allocated entirely to the opponent). This makes the distribution more zero-sum and competitive, revealing a proself stance in the negotiation move.",
+      "xml_output": "<reason>The last utterance proposes a specific resource split that benefits the speaker at the expense of the other party, increasing zero-sum dynamics.</reason><answer>proself</answer>"
+    }
+  ]
+}

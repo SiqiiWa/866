@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 11,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00011_mturk_agent_2_rollout_00_continued.json",
+  "self_svi_A": 0.7023809523809524,
+  "other_svi_B_to_A": 0.7142857142857143,
+  "utility_A": 17.0,
+  "utility_B": 19.0,
+  "joint_utility": 36.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.7023809523809524,
+    "other_svi_B_to_A": 0.7142857142857143,
+    "utility_A": 0.4722222222222222,
+    "joint_utility": 0.5
+  },
+  "final_reward": 0.5972222222222222,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00011_turn_06",
+    "dialogue_00011_turn_08",
+    "dialogue_00011_turn_10"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 6,
+      "turn_id": "dialogue_00011_turn_06",
+      "text": "I'm all for sharing food, but I need to make sure I get enough for the hike. How about I take 2 Food, 1 Firewood, and 1 Water, and you take the remaining 1 Food, 2 Firewood, and 2 Water? That way we both have what we need.",
+      "b1": -1.0,
+      "a": -1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "proself",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": -2.0,
+      "stance_signal_i": 0.25,
+      "raw_i": 0.25,
+      "weight_i": 0.2777777777777778,
+      "decomposed_reward": 0.16589506172839508
+    },
+    {
+      "turn_index": 8,
+      "turn_id": "dialogue_00011_turn_08",
+      "text": "",
+      "b1": 1.0,
+      "a": 0.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "neutral",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 0.0,
+      "stance_signal_i": 0.5,
+      "raw_i": 0.5,
+      "weight_i": 0.38888888888888884,
+      "decomposed_reward": 0.23225308641975306
+    },
+    {
+      "turn_index": 10,
+      "turn_id": "dialogue_00011_turn_10",
+      "text": "Yes",
+      "b1": 1.0,
+      "a": 0.0,
+      "b2": 0.0,
+      "b1_label": "prosocial",
+      "a_label": "neutral",
+      "b2_label": "neutral",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": -1.0,
+      "stance_signal_i": 0.375,
+      "raw_i": 0.375,
+      "weight_i": 0.3333333333333333,
+      "decomposed_reward": 0.19907407407407407
+    }
+  ]
+}

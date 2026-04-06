@@ -1,0 +1,341 @@
+{
+  "dialogue_index": 165,
+  "dialogue_name": "dialogue_00165",
+  "perspective": "mturk_agent_1",
+  "selected_important_turn": {
+    "turn_index": 1,
+    "text": "I want all the firewood and all the water please. 🙂",
+    "importance_rank": 1,
+    "current_procedure": {
+      "type": "negative_structural",
+      "from": {
+        "speaker": "THEM",
+        "stance": "prosocial",
+        "action_type": "info"
+      },
+      "to": {
+        "speaker": "YOU",
+        "stance": "proself",
+        "action_type": "offer"
+      }
+    },
+    "why_important": "This is the first major move that changed the tone: after the opponent openly shared preferences (a prosocial, integrative signal), you immediately made an all-or-nothing demand. That shift locked the interaction into a zero-sum frame and determined the allocation baseline for the rest of the dialogue.",
+    "why_improvable_or_worth_amplifying": "It's overly greedy and binary given the opponent's disclosure. Because the opponent had already revealed preferences that enable tradeoffs, a blunt demand wasted the chance to craft a mutually better split and risked harming fairness and rapport.",
+    "better_direction": "Instead of demanding 'all' of two items, frame a cooperative proposal or multiple options that trade on differing priorities (e.g., offer to trade firewood+water for some food, or propose splits that respect the opponent's high priority for food). Soften the language and invite the opponent to suggest alternatives.",
+    "expected_effect_on_negotiation": {
+      "joint_gain": "substantial increase (opening integrative options would allow mutually better allocations)",
+      "fairness": "increase (less one-sided, more balanced tradeoffs)",
+      "ease_of_agreement": "increase (more bargaining space and willingness to accept)",
+      "relationship": "improve (less coercive tone, more trust)"
+    }
+  },
+  "annotation_turn_index": 1,
+  "matched_text_turn_index": 2,
+  "preserved_through_turn_index": 2,
+  "prefix_turn_count": 2,
+  "continued_from_turn_index": 3,
+  "agents": {
+    "mturk_agent_1": {
+      "value2issue": {
+        "Low": "Water",
+        "Medium": "Food",
+        "High": "Firewood"
+      },
+      "value2reason": {
+        "Low": "I need to stay hydrated so that I don't have issues when we are doing activities while camping. ",
+        "Medium": "I need additional packages of food because I tend to eat more when I'm active.",
+        "High": "I am anemic and I can't keep warm as well as others, so I need more firewood so that I don't have any health issues."
+      },
+      "outcomes": {
+        "points_scored": 24,
+        "satisfaction": "Extremely satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 26,
+        "gender": "female",
+        "ethnicity": "alaska native or native american",
+        "education": "some 4 year college, no degree"
+      },
+      "personality": {
+        "svo": "proself",
+        "big-five": {
+          "extraversion": 1.0,
+          "agreeableness": 2.5,
+          "conscientiousness": 7.0,
+          "emotional-stability": 1.5,
+          "openness-to-experiences": 3.0
+        }
+      }
+    },
+    "mturk_agent_2": {
+      "value2issue": {
+        "Low": "Firewood",
+        "Medium": "Water",
+        "High": "Food"
+      },
+      "value2reason": {
+        "Low": "I HIGHEST PRIORITY ITEM IS FOOD I THINK OF THE REASON OF THE CUTTING TREE  AND THE ITS A MOST ADDITIONAL PACKAGES",
+        "Medium": "I HIGHEST PRIORITY ITEM IS FOOD I THINK OF THE REASON OF THE MINORAL  AND THE ITS A MOST ADDITIONAL PACKAGES",
+        "High": "I HIGHEST PRIORITY ITEM IS FOOD I THINK OF THE REASON OF THE PIZZA AND THE ITS A MOST ADDITIONAL PACKAGES"
+      },
+      "outcomes": {
+        "points_scored": 15,
+        "satisfaction": "Slightly satisfied",
+        "opponent_likeness": "Slightly like"
+      },
+      "demographics": {
+        "age": 32,
+        "gender": "male",
+        "ethnicity": "white american",
+        "education": "master's degree"
+      },
+      "personality": {
+        "svo": "unclassified",
+        "big-five": {
+          "extraversion": 3.5,
+          "agreeableness": 6.0,
+          "conscientiousness": 4.5,
+          "emotional-stability": 3.5,
+          "openness-to-experiences": 4.0
+        }
+      }
+    }
+  },
+  "dialogue": [
+    {
+      "text": "TO THE FOOD DEAL IN THE HIGH PIRORITY COMPLEX COMPOUND AND THE WATER IN THE MEDIUM COMPOUND AND THE FIREWOOD IS THE LOW COMPOUND",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 1,
+      "turn_id": "dialogue_00165_turn_01",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1"
+    },
+    {
+      "text": "I want all the firewood and all the water please. 🙂",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 2,
+      "turn_id": "dialogue_00165_turn_02",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2"
+    },
+    {
+      "text": "I understand you value food highly. How about we split the firewood 2-1 in your favor, and I’ll give you 2 food packages. That way, we both get what we need without leaving anything on the table.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 3,
+      "turn_id": "dialogue_00165_turn_03",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I appreciate the offer, but I need more food. How about I take 3 food packages, and you take 2, while we split the firewood 1-2 in my favor? That would better align with my priorities.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 4,
+      "turn_id": "dialogue_00165_turn_04",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I see your need for food. How about this: I take 2 firewood, 1 food, and 1 water, while you take 1 firewood, 2 food, and 2 water? It balances our priorities and ensures we both have enough for the trip.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 5,
+      "turn_id": "dialogue_00165_turn_05",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "That sounds fair, but I’d prefer 3 food, 1 water, and 2 firewood. It better matches my priority for food. What do you think?",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 6,
+      "turn_id": "dialogue_00165_turn_06",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I'm willing to adjust. How about I take 2 firewood, 2 food, and 1 water, while you take 1 firewood, 1 food, and 2 water? It respects your food priority while securing my firewood needs.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 7,
+      "turn_id": "dialogue_00165_turn_07",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "I think that works. Let me confirm: you take 2 firewood, 2 food, and 1 water, while I take 1 firewood, 1 food, and 2 water. That respects my food priority and balances the rest.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 8,
+      "turn_id": "dialogue_00165_turn_08",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "Agreed. Final split: I take 2 firewood, 2 food, and 1 water. You take 1 firewood, 1 food, and 2 water. Let’s wrap this up and head out.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_1",
+      "turn_index": 9,
+      "turn_id": "dialogue_00165_turn_09",
+      "speaker": "mturk_agent_1",
+      "listener": "mturk_agent_2",
+      "generated": true,
+      "action_type": "speak",
+      "to": []
+    },
+    {
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "task_data": {
+        "data": "",
+        "issue2youget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        },
+        "issue2theyget": {
+          "Firewood": "",
+          "Water": "",
+          "Food": ""
+        }
+      },
+      "id": "mturk_agent_2",
+      "turn_index": 10,
+      "turn_id": "dialogue_00165_turn_10",
+      "speaker": "mturk_agent_2",
+      "listener": "mturk_agent_1",
+      "generated": true,
+      "action_type": "leave",
+      "to": []
+    }
+  ]
+}

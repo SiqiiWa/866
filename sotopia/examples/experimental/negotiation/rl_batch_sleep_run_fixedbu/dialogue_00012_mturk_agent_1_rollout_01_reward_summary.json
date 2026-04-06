@@ -1,0 +1,67 @@
+{
+  "dialogue_index": 12,
+  "current_A_id": "mturk_agent_1",
+  "current_B_id": "mturk_agent_2",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00012_mturk_agent_1_rollout_01_continued.json",
+  "self_svi_A": 0.6904761904761905,
+  "other_svi_B_to_A": 0.7023809523809524,
+  "utility_A": 19.0,
+  "utility_B": 17.0,
+  "joint_utility": 36.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6904761904761905,
+    "other_svi_B_to_A": 0.7023809523809524,
+    "utility_A": 0.5277777777777778,
+    "joint_utility": 0.5
+  },
+  "final_reward": 0.6051587301587301,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 6,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00012_turn_07",
+    "dialogue_00012_turn_09"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 7,
+      "turn_id": "dialogue_00012_turn_07",
+      "text": "I can take 2 water, 1 firewood, and 1 food. That leaves you with 1 water, 2 firewood, and 2 food. Would you prefer more firewood or less food to balance the trade?",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.5,
+      "decomposed_reward": 0.30257936507936506
+    },
+    {
+      "turn_index": 9,
+      "turn_id": "dialogue_00012_turn_09",
+      "text": "I think that’s a great split! Let me just double-check: you take 2 water, 1 firewood, 1 food; I take 1 water, 2 firewood, 2 food. Yep, that covers all packages. Thanks for working together!",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.5,
+      "decomposed_reward": 0.30257936507936506
+    }
+  ]
+}

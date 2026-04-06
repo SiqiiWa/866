@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 4,
+  "current_A_id": "mturk_agent_2",
+  "current_B_id": "mturk_agent_1",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00004_mturk_agent_2_rollout_00_continued.json",
+  "self_svi_A": 0.6785714285714286,
+  "other_svi_B_to_A": 0.6904761904761905,
+  "utility_A": 23.0,
+  "utility_B": 13.0,
+  "joint_utility": 36.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6785714285714286,
+    "other_svi_B_to_A": 0.6904761904761905,
+    "utility_A": 0.6388888888888888,
+    "joint_utility": 0.5
+  },
+  "final_reward": 0.626984126984127,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 8,
+    "fallback_neutral": 1
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00004_turn_04",
+    "dialogue_00004_turn_06",
+    "dialogue_00004_turn_08"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 4,
+      "turn_id": "dialogue_00004_turn_04",
+      "text": "I value food most, as I haven't eaten yet. I'm willing to trade 1 food package for 2 firewood or 3 water. What's your stance on food?",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 2.0,
+      "stance_signal_i": 0.75,
+      "raw_i": 0.75,
+      "weight_i": 0.39743589743589747,
+      "decomposed_reward": 0.2491859991859992
+    },
+    {
+      "turn_index": 6,
+      "turn_id": "dialogue_00004_turn_06",
+      "text": "I'm flexible on food, but I need at least 2 packages. If you take 2, I'll give you 1 food for 2 firewood. Let's split the rest evenly.",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 0.0,
+      "stance_signal_i": 0.5,
+      "raw_i": 0.5,
+      "weight_i": 0.3205128205128205,
+      "decomposed_reward": 0.20095645095645093
+    },
+    {
+      "turn_index": 8,
+      "turn_id": "dialogue_00004_turn_08",
+      "text": "The deal has already been confirmed. I am leaving now.",
+      "b1": 1.0,
+      "a": 0.0,
+      "b2": 0.0,
+      "b1_label": "prosocial",
+      "a_label": "neutral",
+      "b2_label": "neutral",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "fallback-neutral",
+      "raw_stance_score": -1.0,
+      "stance_signal_i": 0.375,
+      "raw_i": 0.375,
+      "weight_i": 0.28205128205128205,
+      "decomposed_reward": 0.17684167684167684
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "dialogue_index": 2,
+  "current_A_id": "mturk_agent_1",
+  "current_B_id": "mturk_agent_2",
+  "continued_dialogue_path": "examples/experimental/negotiation/rl_batch_sleep_run_fixedbu/dialogue_00002_mturk_agent_1_rollout_00_continued.json",
+  "self_svi_A": 0.6904761904761905,
+  "other_svi_B_to_A": 0.6785714285714286,
+  "utility_A": 17.0,
+  "utility_B": 19.0,
+  "joint_utility": 36.0,
+  "normalized_reward_components": {
+    "self_svi_A": 0.6904761904761905,
+    "other_svi_B_to_A": 0.6785714285714286,
+    "utility_A": 0.4722222222222222,
+    "joint_utility": 0.5
+  },
+  "final_reward": 0.5853174603174603,
+  "stance_usage": {
+    "cached_labels": 0,
+    "model_calls": 9,
+    "fallback_neutral": 0
+  },
+  "post_intervention_A_turn_ids": [
+    "dialogue_00002_turn_05",
+    "dialogue_00002_turn_07",
+    "dialogue_00002_turn_09"
+  ],
+  "turn_level": [
+    {
+      "turn_index": 5,
+      "turn_id": "dialogue_00002_turn_05",
+      "text": "I understand the importance of water for your trip. Have you considered purifying water from local sources or gathering rainwater? If we can share resources, maybe we can ensure both of us have enough without taking all the water. What do you think?",
+      "b1": 1.0,
+      "a": 1.0,
+      "b2": -1.0,
+      "b1_label": "prosocial",
+      "a_label": "prosocial",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": 0.0,
+      "stance_signal_i": 0.5,
+      "raw_i": 0.5,
+      "weight_i": 0.41666666666666663,
+      "decomposed_reward": 0.24388227513227512
+    },
+    {
+      "turn_index": 7,
+      "turn_id": "dialogue_00002_turn_07",
+      "text": "I appreciate your offer, but I need at least 2 water packages for my family's stay. How about this: I'll take 2 water, 1 food, and 1 firewood. You can have 1 water, 2 food, and 2 firewood. That way, we both have essentials without overextending on water.",
+      "b1": 1.0,
+      "a": -1.0,
+      "b2": 1.0,
+      "b1_label": "prosocial",
+      "a_label": "proself",
+      "b2_label": "prosocial",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": -2.0,
+      "stance_signal_i": 0.25,
+      "raw_i": 0.25,
+      "weight_i": 0.29166666666666663,
+      "decomposed_reward": 0.1707175925925926
+    },
+    {
+      "turn_index": 9,
+      "turn_id": "dialogue_00002_turn_09",
+      "text": "Agreed. Final split: I take 2 water, 1 food, 1 firewood. You get 1 water, 2 food, 2 firewood. Let's confirm and then we can leave.",
+      "b1": -1.0,
+      "a": -1.0,
+      "b2": -1.0,
+      "b1_label": "proself",
+      "a_label": "proself",
+      "b2_label": "proself",
+      "b1_source": "model",
+      "a_source": "model",
+      "b2_source": "model",
+      "raw_stance_score": -2.0,
+      "stance_signal_i": 0.25,
+      "raw_i": 0.25,
+      "weight_i": 0.29166666666666663,
+      "decomposed_reward": 0.17071759259259267
+    }
+  ]
+}
